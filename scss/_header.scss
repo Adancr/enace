@@ -1,0 +1,16 @@
+/**********
+**HEADER**
+***********/
+header {
+  .logo {
+    max-width: 8rem;
+    padding: .5rem 0;
+  }
+  .menu a {
+    font-size: 1.6rem;
+    // font-family: open-sans;
+    font-weight: 600;
+    color: $color-primary !important;
+    margin: 0 1rem;
+  }
+}

@@ -1,0 +1,79 @@
+/**********
+**GLOBALS**
+***********/
+html {
+  font-size: $font-size;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family !important;
+  // background-color: $color-primary;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.3rem !important;
+  font-weight: bold;
+  // color: $color-white;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+// p {
+//   line-height: 1.5;
+//   font-size: 1.6rem;
+// }
+
+// a {
+//   text-decoration: none;
+//   font-size: 1.6rem;
+// }
+
+// li {
+//   list-style: none;
+//   font-size: 1.6rem;
+// }
+
+// input {
+//   font-size: 1.6rem !important;
+// }
+
+// .bg-inverse {
+//   background-color: black;
+// }
+
+// %container {
+//   max-width: 1140px;
+//   margin: auto;
+//   @media (max-width: 425px) {
+//       & {
+//           padding-left: 0 !important;
+//           padding-right: 0 !important; 
+//       }
+//   }
+// }
+
+// .container {
+//   @extend %container;
+// }
+
+// .row {
+//   margin-left: 0 !important;
+//   margin-right: 0 !important;
+// }
+

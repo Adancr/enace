@@ -1,0 +1,62 @@
+/**********
+**HEADER**
+***********/
+header .logo {
+  max-width: 8rem;
+  padding: .5rem 0;
+}
+
+header .menu a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1B4A68 !important;
+  margin: 0 1rem;
+}
+
+/**********
+**GLOBALS**
+***********/
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+* {
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.3rem !important;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.empresas .box-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.logo-footer {
+  max-width: 10rem;
+}
+/*# sourceMappingURL=main.css.map */
