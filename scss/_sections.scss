@@ -1,14 +1,7 @@
-.empresas {
-  .box-items {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-}
-
 // slider swiper
 section.swiper-container {
-  
   .swiper-slide {
+    // background-image: url('../dist/images/slide_1.jpg');
     height: 40rem;
     background-size: cover;
     object-fit: cover;
@@ -24,9 +17,179 @@ section.swiper-container {
       bottom: 0;
       left: 0;
       right: 0;
-      
-
     }
   }
-  
+}
+
+// beneficios
+.beneficios {
+  padding: 1.6rem 0;
+  // background-color: $color-grey;
+  .box-icon-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon-text {
+      color: $color-black;
+      h4 {
+        font-size: 2rem !important;
+      }
+    }
+    .icon-lef {
+      color: $color-secondary-light;
+      margin-right: 0.5rem;
+    }
+    .fa-laptop {
+      margin-bottom: 0.5rem;
+    }
+    .fas {
+      font-size: 4rem;
+    }
+  }
+}
+
+// list de cursos
+
+.cursos {
+  background-color: $color-grey;
+  .box-titulo {
+    padding-bottom: 0;
+    padding-top: 2.2rem;
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 1.6rem;
+      padding-left: 0.4rem;
+    }
+  }
+  // .colxd {
+  //   margin-left: 10px !important;
+  //   margin-right: 10px !important;
+  // }
+  .box-curso {
+    // padding-top: 2rem;
+    background-color: $color-white !important;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(31, 31, 31, 0.12), 0 1px 4px rgba(31, 31, 31, 0.12);
+    min-height: 420px;
+    margin-bottom: 1.8rem;
+    border-radius: 4px;
+    img {
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+    .prom {
+      position: absolute;
+      right: 0.6rem;
+      top: 0.7rem;
+      background-color: $color-primary-light;
+      color: $color-white;
+      padding: 2px 4px;
+      font-size: 1.4rem;
+      border-radius: 4px;
+    }
+    .box-info {
+      padding: .8rem .8rem;
+      .titulo {
+        // padding: .8rem 0;
+        min-height: 60px;
+        a {
+          color: $color-primary;
+          font-size: 2rem;
+          line-height: 1.2;
+          & {
+            padding: 1rem 0;
+          }
+        }
+      }
+      .detalles {
+        padding: .8rem 0;
+      }
+      .precio {
+        p:first-child {
+          margin-bottom: 0;
+        }
+        .descuento {
+          background-color: $color-secondary-light;
+          color: $color-white;
+          padding: .3rem .3rem;
+          border-radius: 3px;
+          font-size: 1.3rem;
+        }
+        .precio-actual {
+          font-weight: bold;
+          color: $color-secondary-light;
+          font-size: 1.9rem;
+          
+        }
+        .precio-regular {
+          font-size: 1.4rem;
+          text-decoration: line-through;
+          padding-left: .5rem;
+        }
+      }
+    }
+
+    .box-masinfo {
+      text-align: center;
+      .btn-primary {
+        background-color: $color-secondary-light;
+        font-size: 1.6rem;
+        border: none;
+        &:hover {
+          background-color: $color-secondary;
+        }
+      }
+    }
+  }
+}
+
+// empresas
+.empresas {
+  .box-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+// certificados 
+
+.box-certidicados {
+  .box-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .fas {
+      font-size: 6rem;
+      color: $color-primary-light;
+      padding-right: .8rem;
+    }
+    .title {
+      font-size: 4rem;
+      font-weight: 900;
+      margin-bottom: 0;
+      line-height: 1.2;
+      color: $color-primary-light;
+    }
+    .description {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// footer
+
+// metodos de pago
+.medios-pago {
+  padding: 2rem 0;
+  border-top: 1px solid #ffffff2b;
+  border-bottom: 1px solid #ffffff2b;
+  // max-width: 100rem;
+  // grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 0.7rem;
+  img {
+    width: 50px;
+    height: 30px;
+    padding-right: 0.2rem;
+  }
 }

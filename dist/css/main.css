@@ -30,6 +30,10 @@ body {
           box-sizing: border-box !important;
 }
 
+.container {
+  max-width: 1200px;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -49,11 +53,19 @@ img {
   width: 100%;
 }
 
-.empresas .box-items {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.6rem;
 }
 
 section.swiper-container .swiper-slide {
@@ -77,7 +89,217 @@ section.swiper-container .swiper-slide::before {
   right: 0;
 }
 
-.logo-footer {
+.beneficios {
+  padding: 1.6rem 0;
+}
+
+.beneficios .box-icon-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.beneficios .box-icon-wraper .icon-text {
+  color: #000000;
+}
+
+.beneficios .box-icon-wraper .icon-text h4 {
+  font-size: 2rem !important;
+}
+
+.beneficios .box-icon-wraper .icon-lef {
+  color: #CC0921;
+  margin-right: 0.5rem;
+}
+
+.beneficios .box-icon-wraper .fa-laptop {
+  margin-bottom: 0.5rem;
+}
+
+.beneficios .box-icon-wraper .fas {
+  font-size: 4rem;
+}
+
+.cursos {
+  background-color: #f1f1f1;
+}
+
+.cursos .box-titulo {
+  padding-bottom: 0;
+  padding-top: 2.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cursos .box-titulo span {
+  font-size: 1.6rem;
+  padding-left: 0.4rem;
+}
+
+.cursos .box-curso {
+  background-color: #ffffff !important;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(31, 31, 31, 0.12), 0 1px 4px rgba(31, 31, 31, 0.12);
+          box-shadow: 0 1px 6px rgba(31, 31, 31, 0.12), 0 1px 4px rgba(31, 31, 31, 0.12);
+  min-height: 420px;
+  margin-bottom: 1.8rem;
+  border-radius: 4px;
+}
+
+.cursos .box-curso img {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.cursos .box-curso .prom {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.7rem;
+  background-color: #0979CC;
+  color: #ffffff;
+  padding: 2px 4px;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+.cursos .box-curso .box-info {
+  padding: .8rem .8rem;
+}
+
+.cursos .box-curso .box-info .titulo {
+  min-height: 60px;
+}
+
+.cursos .box-curso .box-info .titulo a {
+  color: #1B4A68;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.cursos .box-curso .box-info .titulo a {
+  padding: 1rem 0;
+}
+
+.cursos .box-curso .box-info .detalles {
+  padding: .8rem 0;
+}
+
+.cursos .box-curso .box-info .precio p:first-child {
+  margin-bottom: 0;
+}
+
+.cursos .box-curso .box-info .precio .descuento {
+  background-color: #CC0921;
+  color: #ffffff;
+  padding: .3rem .3rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+
+.cursos .box-curso .box-info .precio .precio-actual {
+  font-weight: bold;
+  color: #CC0921;
+  font-size: 1.9rem;
+}
+
+.cursos .box-curso .box-info .precio .precio-regular {
+  font-size: 1.4rem;
+  text-decoration: line-through;
+  padding-left: .5rem;
+}
+
+.cursos .box-curso .box-masinfo {
+  text-align: center;
+}
+
+.cursos .box-curso .box-masinfo .btn-primary {
+  background-color: #CC0921;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.cursos .box-curso .box-masinfo .btn-primary:hover {
+  background-color: #A5262F;
+}
+
+.empresas .box-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.box-certidicados .box-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-certidicados .box-items .fas {
+  font-size: 6rem;
+  color: #0979CC;
+  padding-right: .8rem;
+}
+
+.box-certidicados .box-items .title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: 1.2;
+  color: #0979CC;
+}
+
+.box-certidicados .box-items .description {
+  margin-bottom: 0;
+}
+
+.medios-pago {
+  padding: 2rem 0;
+  border-top: 1px solid #ffffff2b;
+  border-bottom: 1px solid #ffffff2b;
+  grid-gap: 0.7rem;
+}
+
+.medios-pago img {
+  width: 50px;
+  height: 30px;
+  padding-right: 0.2rem;
+}
+
+/**********
+**FOOTER**
+***********/
+.footer {
+  background-color: #1B4A68;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.footer .box-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.footer .logo-footer img {
   max-width: 10rem;
 }
 /*# sourceMappingURL=main.css.map */
