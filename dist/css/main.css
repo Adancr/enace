@@ -49,6 +49,17 @@ header .menu .campus:hover {
   background-color: #CC0921;
 }
 
+@media (max-width: 768px) {
+  header .menu .campus {
+    border: none;
+  }
+  header .menu .campus span {
+    border: 1px solid #CC0921;
+    border-radius: 5px;
+    padding: .3rem 0;
+  }
+}
+
 header .menu a {
   font-size: 1.6rem;
   font-weight: 600;
