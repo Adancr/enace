@@ -146,9 +146,10 @@ section.swiper-container {
       text-align: center;
       padding-bottom: 0.7rem;
       .btn-primary {
-        background-color: $color-secondary-light;
+        background-color: transparent;
         font-size: 1.6rem;
-        border: none;
+        border: 1px solid $color-secondary-light;
+        color: $color-primary;
         &:hover {
           background-color: $color-secondary;
         }

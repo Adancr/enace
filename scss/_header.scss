@@ -6,11 +6,21 @@ header {
     max-width: 8rem;
     padding: .5rem 0;
   }
-  .menu a {
-    font-size: 1.6rem;
-    // font-family: open-sans;
-    font-weight: 600;
-    color: $color-primary !important;
-    margin: 0 1rem;
+  .menu {
+    .campus {
+      border-radius: 10px;
+      border: 1px solid $color-secondary-light;
+      &:hover {
+        color: $color-white !important;
+        background-color: $color-secondary-light;
+      }
+    }
+    a {
+      font-size: 1.6rem;
+      // font-family: open-sans;
+      font-weight: 600;
+      color: $color-primary !important;
+      margin: 0 1rem;
+    }
   }
 }

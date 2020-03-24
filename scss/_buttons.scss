@@ -1,0 +1,25 @@
+// btn whtasapp
+.btn-whatsapp {
+  // position: absolute;
+  position: fixed;
+  top: 3%;
+  right: 2%;
+  z-index: 10;
+  background-color: $color-wp;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  @media (max-width: 768px) {
+    position: fixed;
+    top: 93%;
+    left: 2%;
+  }
+
+  a {
+    color: white;
+    font-size: 2.8rem;
+  }
+}

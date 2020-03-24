@@ -1,9 +1,52 @@
+.btn-whatsapp {
+  position: fixed;
+  top: 3%;
+  right: 2%;
+  z-index: 10;
+  background-color: #25D366;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .btn-whatsapp {
+    position: fixed;
+    top: 93%;
+    left: 2%;
+  }
+}
+
+.btn-whatsapp a {
+  color: white;
+  font-size: 2.8rem;
+}
+
 /**********
 **HEADER**
 ***********/
 header .logo {
   max-width: 8rem;
   padding: .5rem 0;
+}
+
+header .menu .campus {
+  border-radius: 10px;
+  border: 1px solid #CC0921;
+}
+
+header .menu .campus:hover {
+  color: #ffffff !important;
+  background-color: #CC0921;
 }
 
 header .menu a {
@@ -241,9 +284,10 @@ section.swiper-container .swiper-slide::before {
 }
 
 .cursos .box-curso .box-masinfo .btn-primary {
-  background-color: #CC0921;
+  background-color: transparent;
   font-size: 1.6rem;
-  border: none;
+  border: 1px solid #CC0921;
+  color: #1B4A68;
 }
 
 .cursos .box-curso .box-masinfo .btn-primary:hover {
