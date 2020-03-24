@@ -4,12 +4,95 @@
 .footer {
   background-color: $color-primary;
   color: $color-white;
-  padding: 1rem 0;
+  padding: 1.6rem 0;
   .box-footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 1rem;
-    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
+    padding-bottom: 1rem;
+    h4 {
+      font-size: 2rem;
+      border-bottom: 1px solid #ffffff2b;
+      padding-bottom: .5rem;
+    }
+    .navegacion {
+     
+      div {
+        display: flex;
+        flex-direction: column;
+        a {
+          padding: .3rem 0;
+          font-size: 1.8rem;
+          span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+    .contacto {
+      div {
+        p:first-child {
+          &::before {
+            // content: ;
+          }
+        }
+      }
+    }
+
+    .social {
+      div {
+        display: flex;
+        flex-direction: column;
+        a {
+          padding: .8rem 0;
+          color: $color-white;
+        }
+        .rs {
+          padding-right: .8rem;
+        }
+        span {
+          font-size: 1.6rem;
+          
+          .fa-facebook-f {
+            background-color: $color-white;
+            color: $color-fb;
+            height: 3rem;
+            width: 3rem;
+            // display: inline-block !important;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            
+          
+          }
+          .fa-youtube {
+            color: red;
+            background-color: $color-white;
+            height: 3rem;
+            width: 3rem;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+          }
+          .fa-instagram {
+            height: 3rem;
+            width: 3rem;
+            background: #f09433;
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+            color: $color-white;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+          }
+        }
+      }
+    }
+
   }
   .logo-footer {
     img {
@@ -18,6 +101,13 @@
     }
   }
 
+}
+
+.copyright {
+  p {
+    margin-bottom: .5rem;
+    margin-top: 1.8rem;
+  }
 }
 
 

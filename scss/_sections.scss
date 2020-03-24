@@ -64,6 +64,14 @@ section.swiper-container {
     span {
       font-size: 1.6rem;
       padding-left: 0.4rem;
+      // display: inline-block;
+    }
+
+    @media (max-width: 750px) {
+      display: block;
+      h2 {
+        display: inline-block;
+      }
     }
     
   }
@@ -161,11 +169,13 @@ section.swiper-container {
 
 .box-certidicados {
   background-size: cover;
-  background-position: center center;
+  // background-position: center center fixed;
+  background: center bottom fixed;
   position: relative;
   height: 25rem;
   display: flex;
   align-items: center;
+
   @media (max-width: 810px) {
     height: 36rem;
   }

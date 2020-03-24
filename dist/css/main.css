@@ -154,6 +154,15 @@ section.swiper-container .swiper-slide::before {
   padding-left: 0.4rem;
 }
 
+@media (max-width: 750px) {
+  .cursos .box-titulo {
+    display: block;
+  }
+  .cursos .box-titulo h2 {
+    display: inline-block;
+  }
+}
+
 .cursos .box-curso {
   background-color: #ffffff !important;
   position: relative;
@@ -250,7 +259,7 @@ section.swiper-container .swiper-slide::before {
 
 .box-certidicados {
   background-size: cover;
-  background-position: center center;
+  background: center bottom fixed;
   position: relative;
   height: 25rem;
   display: -webkit-box;
@@ -337,18 +346,124 @@ section.swiper-container .swiper-slide::before {
 .footer {
   background-color: #1B4A68;
   color: #ffffff;
-  padding: 1rem 0;
+  padding: 1.6rem 0;
 }
 
 .footer .box-footer {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 1rem;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer .box-footer h4 {
+  font-size: 2rem;
+  border-bottom: 1px solid #ffffff2b;
+  padding-bottom: .5rem;
+}
+
+.footer .box-footer .navegacion div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .box-footer .navegacion div a {
+  padding: .3rem 0;
+  font-size: 1.8rem;
+}
+
+.footer .box-footer .navegacion div a span {
+  font-size: 1.5rem;
+}
+
+.footer .box-footer .social div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .box-footer .social div a {
+  padding: .8rem 0;
+  color: #ffffff;
+}
+
+.footer .box-footer .social div .rs {
+  padding-right: .8rem;
+}
+
+.footer .box-footer .social div span {
+  font-size: 1.6rem;
+}
+
+.footer .box-footer .social div span .fa-facebook-f {
+  background-color: #ffffff;
+  color: #385898;
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.footer .box-footer .social div span .fa-youtube {
+  color: red;
+  background-color: #ffffff;
+  height: 3rem;
+  width: 3rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.footer .box-footer .social div span .fa-instagram {
+  height: 3rem;
+  width: 3rem;
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+  border-radius: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer .logo-footer img {
   max-width: 10rem;
+}
+
+.copyright p {
+  margin-bottom: .5rem;
+  margin-top: 1.8rem;
 }
 /*# sourceMappingURL=main.css.map */
