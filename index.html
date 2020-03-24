@@ -11,7 +11,9 @@
   <!-- personalizado CSS  -->
   <link rel="stylesheet" href="./dist/css/main.css">
   <!-- google fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/swiper.min.css">
 
   <title>Escuela Nacional de Asosoría y Capacitación Empresarial | ENACE</title>
   <style>
@@ -57,22 +59,39 @@
     <section id="animacion" class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide d-flex justify-content-center align-items-center"
-          style="background-image:url(./images/contratos.jpg)">
+          style="background-image: url(../dist/images/slide_1.jpg);">
 
           <div class="container">
             <div class="row">
               <div class="col-12">
                 <h2 class="display-5 font-weight-bold">
-                  Slider
+                  PROMOCIONES MARZO 2020
 
                 </h2>
-                <a href="#" class="btn">Más información </a>
+                <a href="#" class="btn btn-primary">Más información </a>
               </div>
             </div>
           </div>
         </div>
+        <div class="swiper-slide d-flex justify-content-center align-items-center"
+          style="background-image: url(../dist/images/slide_2.jpg);">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="display-5 font-weight-bold">
+                  BENEFICIOS DE NUESTROS DIPLOMADOS VIRTUALES
+
+                </h2>
+                <a href="#" class="btn btn-primary">Más información </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
-      
+
       <!-- botones de navegacion -->
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
@@ -277,7 +296,7 @@
               <p class="description">Certificados emitidos</p>
             </div>
           </div>
-        
+
         </div>
       </div>
     </section>
@@ -339,6 +358,26 @@
 
 
   <!-- Optional JavaScript -->
+  <!-- JS Swiper  -->
+  <script src="./dist/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 5000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      }
+    });
+  </script>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="./dist/js/jquery-3.4.1.min.js"></script>
   <script src="./dist/js/popper.min.js"></script>

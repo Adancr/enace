@@ -56,6 +56,27 @@ img {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+section.swiper-container .swiper-slide {
+  height: 40rem;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+section.swiper-container .swiper-slide::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .logo-footer {
   max-width: 10rem;
 }

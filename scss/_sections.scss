@@ -4,3 +4,29 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
+
+// slider swiper
+section.swiper-container {
+  
+  .swiper-slide {
+    height: 40rem;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center center;
+    text-align: center;
+    color: $color-white;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+
+    }
+  }
+  
+}
