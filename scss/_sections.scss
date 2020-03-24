@@ -132,6 +132,7 @@ section.swiper-container {
 
     .box-masinfo {
       text-align: center;
+      padding-bottom: .7rem;
       .btn-primary {
         background-color: $color-secondary-light;
         font-size: 1.6rem;
@@ -155,10 +156,34 @@ section.swiper-container {
 // certificados 
 
 .box-certidicados {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 25rem;
+  display: flex;
+align-items: center;
+@media (max-width: 810px) {
+  height: 36rem;
+  
+}
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  padding: 1.6rem 0;
   .box-items {
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 810px) {
+      justify-content: flex-start;
+      padding: 1rem 0;
+    }
     .fas {
       font-size: 6rem;
       color: $color-primary-light;
@@ -173,6 +198,7 @@ section.swiper-container {
     }
     .description {
       margin-bottom: 0;
+      color: $color-white;
     }
   }
 }

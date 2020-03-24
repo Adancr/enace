@@ -220,6 +220,7 @@ section.swiper-container .swiper-slide::before {
 
 .cursos .box-curso .box-masinfo {
   text-align: center;
+  padding-bottom: .7rem;
 }
 
 .cursos .box-curso .box-masinfo .btn-primary {
@@ -239,6 +240,36 @@ section.swiper-container .swiper-slide::before {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
+.box-certidicados {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.6rem 0;
+}
+
+@media (max-width: 810px) {
+  .box-certidicados {
+    height: 36rem;
+  }
+}
+
+.box-certidicados:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .box-certidicados .box-items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,6 +280,15 @@ section.swiper-container .swiper-slide::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (max-width: 810px) {
+  .box-certidicados .box-items {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 1rem 0;
+  }
 }
 
 .box-certidicados .box-items .fas {
@@ -267,6 +307,7 @@ section.swiper-container .swiper-slide::before {
 
 .box-certidicados .box-items .description {
   margin-bottom: 0;
+  color: #ffffff;
 }
 
 .medios-pago {
