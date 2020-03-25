@@ -514,7 +514,8 @@ section.swiper-container .swiper-slide::before {
 }
 
 .footer .logo-footer img {
-  max-width: 10rem;
+  padding-bottom: 1rem;
+  max-width: 15rem;
 }
 
 .copyright p {
