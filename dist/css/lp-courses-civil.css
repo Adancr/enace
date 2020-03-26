@@ -387,6 +387,12 @@ nav .wp {
           justify-content: center;
 }
 
+@media (max-width: 767px) {
+  .title-p .title-p-child {
+    padding-bottom: 2rem;
+  }
+}
+
 .title-p .certifica {
   display: -webkit-box;
   display: -ms-flexbox;

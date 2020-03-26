@@ -66,6 +66,9 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        @media (max-width: 767px) {
+          padding-bottom: 2rem;
+        }
     }
     .certifica {
         display: flex;
