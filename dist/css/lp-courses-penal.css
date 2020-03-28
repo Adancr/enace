@@ -342,7 +342,7 @@ nav .wp {
 *section principal
 *****************/
 .title-p {
-  background-image: url(../images/procesal-civil.jpg);
+  background-image: url(../images/penal-y-procesal-penal.jpg);
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
@@ -972,4 +972,4 @@ footer {
       -ms-flex-align: center;
           align-items: center;
 }
-/*# sourceMappingURL=lp-courses-civil.css.map */
+/*# sourceMappingURL=lp-courses-penal.css.map */

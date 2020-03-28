@@ -10,6 +10,17 @@
           align-items: center;
   background-position: center center;
   background-size: cover;
+  position: relative;
+}
+
+.title-p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 768px) {
@@ -45,12 +56,12 @@
 .form-contact h2 {
   font-size: 2.2rem !important;
   text-align: center;
-  color: #1B4A68;
+  color: #1b4a68;
 }
 
 .form-contact .fas {
   font-size: 1.6rem;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .form-contact .form-group {
@@ -90,7 +101,7 @@
   display: block;
   width: 100%;
   height: calc(2.25rem + 2px);
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 500 !important;
   line-height: 1.5;
@@ -98,14 +109,14 @@
   background-color: #ffffff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-top-right-radius: .25rem;
-  border-bottom-right-radius: .25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0 !important;
   border-top-left-radius: 0 !important;
-  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
 .form-contact .form-group .p-height-50 {
@@ -117,22 +128,22 @@
 }
 
 .form-contact .btn-primary {
-  background-color: #A5262F;
+  background-color: #a5262f;
   padding: 1.2rem 0;
   font-size: 1.6rem;
   font-weight: 500;
-  border-color: #A5262F;
+  border-color: #a5262f;
 }
 
 .form-contact .btn-primary:hover {
   color: #000;
   font-weight: 500;
-  border-color: #A5262F;
+  border-color: #a5262f;
 }
 
 section .row-start-date-title {
   padding: 1.6rem 0;
-  background-color: #1B4A68;
+  background-color: #1b4a68;
   color: #ffffff;
 }
 
@@ -151,8 +162,8 @@ div .start-date-details {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid #A5262F;
-  padding: .8rem;
+  border: 1px solid #a5262f;
+  padding: 0.8rem;
   text-align: center;
 }
 
@@ -162,13 +173,13 @@ div .start-date-details h6 {
 
 div .start-date-details .fas {
   padding-bottom: 1.8rem;
-  color: #A5262F;
+  color: #a5262f;
   font-size: 4rem;
 }
 
 div .start-date-details .date-details {
-  background-color: #1B4A68;
-  padding: .5rem 6rem;
+  background-color: #1b4a68;
+  padding: 0.5rem 6rem;
   color: #ffffff;
   font-size: 1.3rem;
 }
