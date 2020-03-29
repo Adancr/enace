@@ -4,15 +4,18 @@
   grid-gap: 1.8rem;
   margin: 3rem 0;
   padding-top: 1rem;
+  @media (max-width: 650px) {
+    grid-gap: 3rem;
+  }
   .item-info {
     h2 {
       font-size: 3rem;
-      color: $color-primary;
+      color: $color-secondary-light;
     }
     p {
       font-weight: bold;
       margin-bottom: 0;
-      font-size: 1.8rem;
+      font-size: 1.8rem;  
     }
     .item-phones {
       display: flex;
@@ -22,7 +25,7 @@
         font-size: 3.5rem;
         font-weight: bold;
         margin-right: 1rem;
-        color: $color-primary;
+        color: $color-secondary-light;
       }
     }
     .item-email {
@@ -33,7 +36,7 @@
         font-size: 3.5rem;
         font-weight: bold;
         margin-right: 1rem;
-        color: $color-primary;
+        color: $color-secondary-light;
       }
       .phones {
         a {
@@ -51,7 +54,7 @@
         font-size: 3.5rem;
         font-weight: bold;
         margin-right: 1rem;
-        color: $color-primary;
+        color: $color-secondary-light;
       }
       .phones {
         a {
@@ -66,7 +69,7 @@
   .item-form {
     h2 {
       font-size: 3rem;
-      color: $color-primary;
+      color: $color-secondary-light;
     }
     p {
       font-weight: bold;
@@ -80,26 +83,42 @@
         margin-top: 2rem;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 650px) {
+          display: block;
+        }
         input {
           width: 100%;
           padding: .5rem 1rem;
           font-size: 1.6rem;
           margin: 0 .5rem;
-          border: 1px solid $color-grey;
+          border: 1px solid #e5e3e3;
           border-radius: 3px;
+          @media (max-width: 650px) {
+            &[type=text] {
+              margin-top: 1rem;
+            }
+          }
         }
       }
       .email {
         display: flex;
         justify-content: space-between;
         margin-top: 1rem;
+        @media (max-width: 650px) {
+          display: block;
+        }
         input {
           width: 100%;
           padding: .5rem 1rem;
           font-size: 1.6rem;
           margin: 0 .5rem;
-          border: 1px solid $color-grey;
+          border: 1px solid #e5e3e3;
           border-radius: 3px;
+          @media (max-width: 650px) {
+            &[type=text] {
+              margin-top: 1rem;
+            }
+          }
         }
       }
       
@@ -109,7 +128,7 @@
         textarea {
           width: 100%;
           // margin: 0 .5rem;
-          border: 1px solid $color-grey;
+          border: 1px solid #e5e3e3;
           font-size: 1.6rem;
           padding: .5rem 1rem;
         }
@@ -124,7 +143,7 @@
           padding: .7rem 1.5rem;
           font-size: 1.8rem;
           font-weight: bold;
-          background-color: $color-primary-light;
+          background-color: $color-secondary-light;
           color: $color-white;
           border: none;
           border-radius: 5px;

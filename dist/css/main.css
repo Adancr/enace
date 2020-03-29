@@ -431,9 +431,15 @@ section.swiper-container .swiper-slide::before {
   padding-top: 1rem;
 }
 
+@media (max-width: 650px) {
+  .wrap-contacto {
+    grid-gap: 3rem;
+  }
+}
+
 .wrap-contacto .item-info h2 {
   font-size: 3rem;
-  color: #1B4A68;
+  color: #CC0921;
 }
 
 .wrap-contacto .item-info p {
@@ -456,7 +462,7 @@ section.swiper-container .swiper-slide::before {
   font-size: 3.5rem;
   font-weight: bold;
   margin-right: 1rem;
-  color: #1B4A68;
+  color: #CC0921;
 }
 
 .wrap-contacto .item-info .item-email {
@@ -473,7 +479,7 @@ section.swiper-container .swiper-slide::before {
   font-size: 3.5rem;
   font-weight: bold;
   margin-right: 1rem;
-  color: #1B4A68;
+  color: #CC0921;
 }
 
 .wrap-contacto .item-info .item-email .phones a {
@@ -496,7 +502,7 @@ section.swiper-container .swiper-slide::before {
   font-size: 3.5rem;
   font-weight: bold;
   margin-right: 1rem;
-  color: #1B4A68;
+  color: #CC0921;
 }
 
 .wrap-contacto .item-info .item-direccion .phones a {
@@ -507,7 +513,7 @@ section.swiper-container .swiper-slide::before {
 
 .wrap-contacto .item-form h2 {
   font-size: 3rem;
-  color: #1B4A68;
+  color: #CC0921;
 }
 
 .wrap-contacto .item-form p {
@@ -531,13 +537,25 @@ section.swiper-container .swiper-slide::before {
           justify-content: space-between;
 }
 
+@media (max-width: 650px) {
+  .wrap-contacto .item-form .form .name {
+    display: block;
+  }
+}
+
 .wrap-contacto .item-form .form .name input {
   width: 100%;
   padding: .5rem 1rem;
   font-size: 1.6rem;
   margin: 0 .5rem;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #e5e3e3;
   border-radius: 3px;
+}
+
+@media (max-width: 650px) {
+  .wrap-contacto .item-form .form .name input[type=text] {
+    margin-top: 1rem;
+  }
 }
 
 .wrap-contacto .item-form .form .email {
@@ -550,13 +568,25 @@ section.swiper-container .swiper-slide::before {
   margin-top: 1rem;
 }
 
+@media (max-width: 650px) {
+  .wrap-contacto .item-form .form .email {
+    display: block;
+  }
+}
+
 .wrap-contacto .item-form .form .email input {
   width: 100%;
   padding: .5rem 1rem;
   font-size: 1.6rem;
   margin: 0 .5rem;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #e5e3e3;
   border-radius: 3px;
+}
+
+@media (max-width: 650px) {
+  .wrap-contacto .item-form .form .email input[type=text] {
+    margin-top: 1rem;
+  }
 }
 
 .wrap-contacto .item-form .form .textarea {
@@ -565,7 +595,7 @@ section.swiper-container .swiper-slide::before {
 
 .wrap-contacto .item-form .form .textarea textarea {
   width: 100%;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #e5e3e3;
   font-size: 1.6rem;
   padding: .5rem 1rem;
 }
@@ -581,7 +611,7 @@ section.swiper-container .swiper-slide::before {
   padding: .7rem 1.5rem;
   font-size: 1.8rem;
   font-weight: bold;
-  background-color: #0979CC;
+  background-color: #CC0921;
   color: #ffffff;
   border: none;
   border-radius: 5px;
