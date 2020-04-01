@@ -26,7 +26,7 @@
 
 /*button call*/ 
 .call {
-  // display: none;
+  display: none;
   position: fixed;
   bottom: 2%;
   right: 1%;
@@ -41,3 +41,9 @@
       display: inline-block;
   }
 } 
+
+// BTN SLIDER 
+.btn-primary {
+  padding: .5rem 1rem;
+  font-size: 1.6rem;
+}

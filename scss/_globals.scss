@@ -60,9 +60,14 @@ li {
     margin-left: 0 !important;
 }
 
-// input {
-//   font-size: 1.6rem !important;
-// }
+input {
+  font-size: 1.6rem !important; 
+}
+
+input::placeholder {
+  font-size: 1.4rem !important;
+}
+
 
 // .bg-inverse {
 //   background-color: black;

@@ -40,7 +40,7 @@ header .active {
 
 @media (max-width: 680px) {
   .blok-slider {
-    height: 850px;
+    height: 600px;
   }
   .blok-slider .main-form {
     padding-top: 3.2rem;
@@ -53,9 +53,9 @@ header .active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

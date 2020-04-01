@@ -36,13 +36,14 @@ header {
   h1 {
     font-size: 4rem;
   }
+  
   h4,
   h5 {
     font-size: 2rem;
   }
   @media (max-width: 680px) {
     // height: 100vh;
-    height: 850px;
+    height: 600px;
     .main-form {
       padding-top: 3.2rem;
     } 
@@ -51,7 +52,7 @@ header {
     max-width: 1140px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 3rem 0;
     
