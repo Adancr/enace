@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
   <!-- personalizado CSS  -->
-  <link rel="stylesheet" href="../dist/css/main.css">
+  <link rel="stylesheet" href="../dist/css/main.css?v1.2">
   <!-- google fonts  -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap"
     rel="stylesheet">
@@ -18,18 +18,7 @@
   <script src="https://kit.fontawesome.com/4f57ccf18e.js" crossorigin="anonymous"></script>
 
   <title>Escuela Nacional de Asosoría y Capacitación Empresarial | ENACE</title>
-  <style>
-    /* img {
-      width: 100%;
-    } */
 
-    .navigacion {
-      display: flex;
-      width: 100%;
-      background-color: red;
-      justify-content: space-evenly;
-    }
-  </style>
 </head>
 
 <body>
@@ -37,7 +26,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container">
-        <a class="navbar-brand" href="#"><img class="logo" src="../dist/images/logo-enace.jpg" alt=""></a>
+        <a class="navbar-brand" href="https://enace.edu.pe/"><img class="logo" src="../dist/images/logo-enace.jpg"
+            alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,7 +37,7 @@
             <a class="nav-item nav-link active" href="https://enace.edu.pe/">INICIO <span
                 class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="../diplomado/">DIPLOMADOS</a>
-            <a class="nav-item nav-link" href="../promociones/">PROMOCIONES</a>
+            <a class="nav-item nav-link" href="../diplomado/">PROMOCIONES</a>
             <a class="nav-item nav-link" href="../contacto/">CONTACTO</a>
             <a class="nav-item nav-link campus" target="_blank" href="http://campus.enace.edu.pe/"><span>CAMPUS
                 VIRTUAL</span></a>
@@ -69,7 +59,7 @@
             <div class="row">
               <div class="col-12">
                 <h2 style="font-size: 5rem;" class="display-5 font-weight-bold">
-                  CONTACTO 
+                  CONTACTO
 
                 </h2>
                 <!-- <a href="./promociones/" class="btn btn-primary">Más información </a> -->
@@ -77,74 +67,15 @@
             </div>
           </div>
         </div>
-        <!-- <div class="swiper-slide d-flex justify-content-center align-items-center"
-          style="background-image: url('../dist/images/slide_2.jpg');">
 
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <h2 class="display-5 font-weight-bold">
-                  BENEFICIOS DE NUESTROS DIPLOMADOS VIRTUALES
-
-                </h2>
-                <a href="./promociones/" class="btn btn-primary">Más información </a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
+ 
 
       </div>
 
-      <!-- botones de navegacion -->
-      <!-- <div class="swiper-button-next"></div> -->
-      <!-- <div class="swiper-button-prev"></div> -->
-      <!-- botones de paginacion -->
-      <!-- <div class="swiper-pagination"></div> -->
+
 
     </section>
-    <!-- fin slider  -->
 
-    <!-- <section class="beneficios">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-laptop-house"></i>
-              </div>
-              <div class="icon-text">
-                <h4>ESTUDIA DESDE <br> DONDE ESTÉS</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-edit"></i>
-              </div>
-              <div class="icon-text">
-                <h4>ACTUALÍZATE</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-medal"></i>
-              </div>
-              <div class="icon-text">
-                <h4>CERTIFÍCATE</h4>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-      </div>
-    </section> -->
     <section class="contacto">
       <div class="container">
         <div class="wrap-contacto">
@@ -181,20 +112,20 @@
           <div class="item-form">
             <h2>Deja tus datos</h2>
             <p>Completa los campos para poder ayudarlo</p>
-            <form action="">
+            <form name="frmContacto" method="post" action="enviar.php">
               <div class="form">
                 <div class="name">
-                  <input type="text" placeholder="Nombre">
-                  <input type="text" placeholder="Apellido">
+                  <input type="text" name="first_name" placeholder="Nombre">
+                  <input type="text" name="last_name" placeholder="Apellido">
                 </div>
-                
+
                 <div class="email">
-                  <input type="email" placeholder="Correo">
-                  <input type="text" placeholder="Celular">
+                  <input type="email" name="email" placeholder="Correo">
+                  <input type="text" name="telephone" placeholder="Celular">
                 </div>
-                
+
                 <div class="textarea">
-                  <textarea placeholder="Mensaje" name="" id=""  rows="5"></textarea>
+                  <textarea name="comments" placeholder="Mensaje" name="" id="" rows="5"></textarea>
                 </div>
                 <div class="boton">
                   <button type="submit">Enviar</button>
@@ -215,8 +146,23 @@
               <h2>¡No te pierdas de las novedades!</h2>
               <p>Recibe información sobre promociones, alertas informativas y nuevos diplomados.</p>
               <div class="send">
-                <input type="email" placeholder="Escribe tu email">
-                <button type="submit"><i class="far fa-paper-plane"></i></button>
+                <form action="https://app.mailerlite.com/webforms/submit/z8x1e2" data-code="z8x1e2" method="post">
+                  <input type="email" data-inputmask="" name="fields[email]" autocomplete="email" required
+                    placeholder="Escribe tu email">
+                  <!-- <div class="ml-form-checkboxRow ml-validate-required">
+                    <label class="checkbox"> <input type="checkbox">
+                      <div class="label-description">
+                        <p>Suscríbete para recibir noticias y actualizaciones.</p>
+                      </div>
+                    </label>
+                  </div> -->
+                  <button type="submit" ><i class="far fa-paper-plane"></i></button>
+                  <input type="hidden" name="ml-submit" value="1">
+                  <button disabled="disabled" style="display:none" type="button" class="loading">
+                    
+                  </button>
+                  <!-- <button type="submit"><i class="far fa-paper-plane"></i></button> -->
+                </form>
               </div>
 
             </div>
@@ -254,9 +200,9 @@
         <div class="navegacion">
           <h4>NAVEGACIÓN</h4>
           <div>
-            <a href="./diplomado/"><span>•</span> Diplomados</a>
-            <a href="./promociones/"><span>•</span> Promociones</a>
-            <a href="http://campus.enace.edu.pe/"><span>•</span> Campus Virtual</a>
+            <a href="../diplomado/"><span>•</span> Diplomados</a>
+            <a href="../diplomado/"><span>•</span> Promociones</a>
+            <a target="_blank" href="http://campus.enace.edu.pe/"><span>•</span> Campus Virtual</a>
           </div>
         </div>
         <div class="contacto">
@@ -270,10 +216,12 @@
         <div class="social">
           <h4>SÍGUENOS EN:</h4>
           <div>
-            <a href="https://www.facebook.com/EnaceCapacitaciones/"><span class="rs"><i
+            <a target="_blank" href="https://www.facebook.com/EnaceCapacitaciones"><span class="rs"><i
                   class="fab fa-facebook-f"></i></span> <span>Facebook</span></a>
-            <a href=""><span class="rs"><i class="fab fa-youtube"></i></span> <span>YouTube</span></a>
-            <a href=""><span class="rs"><i class="fab fa-instagram"></i></span> <span>Instagram</span></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCnw0DPqVA-qYYuMCUeLSlJg"><span class="rs"><i
+                  class="fab fa-youtube"></i></span> <span>YouTube</span></a>
+            <a target="_blank" href="https://www.instagram.com/enace_diplomados7"><span class="rs"><i
+                  class="fab fa-instagram"></i></span> <span>Instagram</span></a>
           </div>
         </div>
       </div>
@@ -315,6 +263,13 @@
 
   <!-- script mapa  -->
   <script src="../dist/js/map.js"></script>
+
+  <!-- mailerlite  -->
+  <script>
+    function ml_webform_success_1998422(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-1998422 .row-success").show(),r(".ml-subscribe-form-1998422 .row-form").hide()}
+  </script>
+  <img src="https://track.mailerlite.com/webforms/o/1998422/z8x1e2?vee71a8848f3cc4af6b2730283dbdc659" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+  <script src="https://static.mailerlite.com/js/w/webforms.min.js?vee71a8848f3cc4af6b2730283dbdc659" type="text/javascript"></script>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="../dist/js/jquery-3.4.1.min.js"></script>

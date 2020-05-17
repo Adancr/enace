@@ -27,6 +27,11 @@
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    h1 {
+      @media (max-width: 667px) {
+        font-size: 2rem;
+      }
+    }
   }
 }
 

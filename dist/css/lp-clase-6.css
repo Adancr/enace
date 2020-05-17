@@ -47,6 +47,12 @@
   margin-top: 5rem;
 }
 
+@media (max-width: 667px) {
+  .title-p .title-p-child h1 {
+    font-size: 2rem;
+  }
+}
+
 .form-contact {
   background-color: #ffffff;
   padding: 1.8rem;

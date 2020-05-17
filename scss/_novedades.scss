@@ -15,11 +15,15 @@
       position: relative;
       justify-content: center;
       margin-top: 1.5rem;
-      input {
-        width: 90%;
-        padding: 1.5rem 2rem;
-        font-size: 1.6rem;
-        border: none;
+      form {
+        width: 100%;
+        input[type=email] {
+          width: 90%;
+          padding: 1.5rem 2rem;
+          font-size: 1.6rem;
+          border: none;
+        }
+
       }
       button {
         position: absolute;

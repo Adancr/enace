@@ -367,6 +367,72 @@ section.swiper-container .swiper-slide::before {
   display: grid;
   -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.empresas .box-items .logo-cac {
+  width: 429px;
+  height: 146px;
+}
+
+@media (max-width: 1024px) {
+  .empresas .box-items .logo-cac {
+    width: 330px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 768px) {
+  .empresas .box-items .logo-cac {
+    width: 230px;
+    height: 78px;
+  }
+}
+
+@media (max-width: 667px) {
+  .empresas .box-items .logo-cac {
+    width: 300px;
+    height: 102px;
+  }
+}
+
+.empresas .box-items .logo-cesul {
+  width: 283px;
+  height: 146px;
+}
+
+@media (max-width: 768px) {
+  .empresas .box-items .logo-cesul {
+    width: 230px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 667px) {
+  .empresas .box-items .logo-cesul {
+    width: 250px;
+    height: 131px;
+  }
+}
+
+.empresas .box-items .logo-profesores {
+  width: 102px;
+  height: 146px;
+}
+
+@media (max-width: 768px) {
+  .empresas .box-items .logo-profesores {
+    width: 73px;
+    height: 105px;
+  }
 }
 
 .box-certidicados {
@@ -680,7 +746,11 @@ section.swiper-container .swiper-slide::before {
   margin-top: 1.5rem;
 }
 
-.novedades-wrap .novedades .send input {
+.novedades-wrap .novedades .send form {
+  width: 100%;
+}
+
+.novedades-wrap .novedades .send form input[type=email] {
   width: 90%;
   padding: 1.5rem 2rem;
   font-size: 1.6rem;

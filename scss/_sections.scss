@@ -164,6 +164,50 @@ section.swiper-container {
   .box-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    .logo-cac {
+      width: 429px;
+      height: 146px;
+      @media (max-width: 1024px) {
+        width: 330px;
+        height: 112px;
+      }
+      @media (max-width: 768px) {
+        width: 230px;
+        height: 78px;
+      }
+      @media (max-width: 667px) {
+        width: 300px;
+        height: 102px;
+      }
+    
+    }
+    .logo-cesul {
+      width: 283px;
+      height: 146px;
+      @media (max-width: 768px) {
+        width: 230px;
+        height: 120px;
+      }
+      @media (max-width: 667px) {
+        width: 250px;
+        height: 131px;
+      }
+    
+    }
+    .logo-profesores {
+      width: 102px;
+      height: 146px;
+      @media (max-width: 768px) {
+        width: 73px;
+        height: 105px;
+      }
+    
+    }
   }
 }
 
