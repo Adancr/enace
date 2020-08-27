@@ -1,7 +1,9 @@
 let main_body = document.querySelector('head + body');
 
 // date google maps      
-let src_map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.471035408652!2d-77.0380496851871!3d-12.079872091445253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8f37c1442d7%3A0xff8daf54e3edecda!2sJir%C3%B3n%20Manuel%20Segura%20142%2C%20Cercado%20de%20Lima%2015046!5e0!3m2!1ses!2spe!4v1585434420986!5m2!1ses!2spe";
+let src_map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.233399425778!2d-77.02475173531052!3d-12.096167894568415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c86563d4c809%3A0xda5e38afd3134606!2sCalle%20German%20Schreiber%20Gulsmanco%20276%2C%20San%20Isidro%2015047!5e0!3m2!1ses!2spe!4v1593744852285!5m2!1ses!2spe";
+
+
 let containerMapGoogle = document.querySelector('.fyn-add-maps');
 
 let iframe_map = document.createElement('iframe');
@@ -15,8 +17,8 @@ iframe_map.allowFullscreen = true;
 
 
 
-main_body.addEventListener('mouseover', function(){
-    let mapGoogle = document.querySelector('iframe');
+main_body.addEventListener('mouseover', function () {
+	let mapGoogle = document.querySelector('iframe');
 	if (mapGoogle) {
 		// alert('hay un mapa')
 	} else {
@@ -24,7 +26,7 @@ main_body.addEventListener('mouseover', function(){
 	}
 });
 
-main_body.addEventListener('touchstart', function(){
+main_body.addEventListener('touchstart', function () {
 	let mapGoogle = document.querySelector('iframe');
 	if (mapGoogle) {
 		// alert('hay un mapa')
