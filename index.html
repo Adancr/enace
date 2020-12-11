@@ -1,991 +1,1360 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-176587730-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176587730-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+			gtag("config", "UA-176587730-1");
+		</script>
 
-    gtag('config', 'UA-176587730-1');
-  </script>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="./dist/css/bootstrap.min.css" />
+		<!-- personalizado CSS  -->
+		<link rel="stylesheet" href="./dist/css/main.css?v1.3" />
+		<!-- google fonts  -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./dist/css/swiper.min.css" />
+		<!-- icons fontawesome  -->
+		<script
+			src="https://kit.fontawesome.com/4f57ccf18e.js"
+			crossorigin="anonymous"
+		></script>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
-  <!-- personalizado CSS  -->
-  <link rel="stylesheet" href="./dist/css/main.css?v1.3">
-  <!-- google fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./dist/css/swiper.min.css">
-  <!-- icons fontawesome  -->
-  <script src="https://kit.fontawesome.com/4f57ccf18e.js" crossorigin="anonymous"></script>
+		<title>
+			Escuela Nacional de Asesoría y Capacitación Empresarial | ENACE
+		</title>
+	</head>
 
-  <title>Escuela Nacional de Asesoría y Capacitación Empresarial | ENACE</title>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<a class="navbar-brand" href="https://enace.edu.pe/"
+						><img class="logo" src="./dist/images/logo-enace.jpg" alt=""
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						style="justify-content: flex-end"
+						class="collapse navbar-collapse"
+						id="navbarNavAltMarkup"
+					>
+						<div class="navbar-nav menu">
+							<a class="nav-item nav-link active" href="https://enace.edu.pe/"
+								>INICIO <span class="sr-only">(current)</span></a
+							>
+							<a class="nav-item nav-link" href="./diplomado/">DIPLOMADOS</a>
+							<a class="nav-item nav-link" href="./programa/">PROGRAMAS</a>
+							<a class="nav-item nav-link" href="./diplomado/">PROMOCIONES</a>
+							<a class="nav-item nav-link" href="./contacto/">CONTACTO</a>
+							<a
+								class="nav-item nav-link campus"
+								target="_blank"
+								href="http://campus.enace.edu.pe/"
+								><span>CAMPUS VIRTUAL</span></a
+							>
+							<!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main class="main">
+			<!-- inicio slider  -->
+			<section id="animacion" class="swiper-container">
+				<div class="swiper-wrapper">
+					<div
+						class="swiper-slide d-flex justify-content-center align-items-center"
+						style="background-image: url('dist/images/slide_1.jpg')"
+					>
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<h2 class="display-5 font-weight-bold">
+										PROMOCIONES DICIEMBRE 2020
+									</h2>
+									<a href="./diplomado/" class="btn btn-primary"
+										>Más información
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="swiper-slide d-flex justify-content-center align-items-center"
+						style="background-image: url('dist/images/slide_2.jpg')"
+					>
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+									<h2 class="display-5 font-weight-bold">
+										BENEFICIOS DE NUESTROS DIPLOMADOS VIRTUALES
+									</h2>
+									<a href="./diplomado/" class="btn btn-primary"
+										>Más información
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-</head>
+				<!-- botones de navegacion -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<!-- botones de paginacion -->
+				<div class="swiper-pagination"></div>
+			</section>
+			<!-- fin slider  -->
 
-<body>
-  <header>
+			<section class="beneficios">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-4 col-lg-4">
+							<div class="box-icon-wraper">
+								<div class="icon-lef">
+									<i class="fas fa-laptop-house"></i>
+								</div>
+								<div class="icon-text">
+									<h4>
+										ESTUDIA DESDE <br />
+										DONDE ESTÉS
+									</h4>
+								</div>
+							</div>
+						</div>
 
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <div class="container">
-        <a class="navbar-brand" href="https://enace.edu.pe/"><img class="logo" src="./dist/images/logo-enace.jpg"
-            alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div style="justify-content: flex-end;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav menu">
-            <a class="nav-item nav-link active" href="https://enace.edu.pe/">INICIO <span
-                class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="./diplomado/">DIPLOMADOS</a>
-            <a class="nav-item nav-link" href="./programa/">PROGRAMAS</a>
-            <a class="nav-item nav-link" href="./diplomado/">PROMOCIONES</a>
-            <a class="nav-item nav-link" href="./contacto/">CONTACTO</a>
-            <a class="nav-item nav-link campus" target="_blank" href="http://campus.enace.edu.pe/"><span>CAMPUS
-                VIRTUAL</span></a>
-            <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
-          </div>
-        </div>
+						<div class="col-12 col-md-4 col-lg-4">
+							<div class="box-icon-wraper">
+								<div class="icon-lef">
+									<i class="fas fa-edit"></i>
+								</div>
+								<div class="icon-text">
+									<h4>ACTUALÍZATE</h4>
+								</div>
+							</div>
+						</div>
 
-      </div>
-    </nav>
-  </header>
-  <main class="main">
-    <!-- inicio slider  -->
-    <section id="animacion" class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide d-flex justify-content-center align-items-center"
-          style="background-image: url('dist/images/slide_1.jpg');">
+						<div class="col-12 col-md-4 col-lg-4">
+							<div class="box-icon-wraper">
+								<div class="icon-lef">
+									<i class="fas fa-medal"></i>
+								</div>
+								<div class="icon-text">
+									<h4>CERTIFÍCATE</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <h2 class="display-5 font-weight-bold">
-                  PROMOCIONES AGOSTO 2020
-
-                </h2>
-                <a href="./diplomado/" class="btn btn-primary">Más información </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide d-flex justify-content-center align-items-center"
-          style="background-image: url('dist/images/slide_2.jpg');">
-
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <h2 class="display-5 font-weight-bold">
-                  BENEFICIOS DE NUESTROS DIPLOMADOS VIRTUALES
-
-                </h2>
-                <a href="./diplomado/" class="btn btn-primary">Más información </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      <!-- botones de navegacion -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <!-- botones de paginacion -->
-      <div class="swiper-pagination"></div>
-
-    </section>
-    <!-- fin slider  -->
-
-    <section class="beneficios">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-laptop-house"></i>
-              </div>
-              <div class="icon-text">
-                <h4>ESTUDIA DESDE <br> DONDE ESTÉS</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-edit"></i>
-              </div>
-              <div class="icon-text">
-                <h4>ACTUALÍZATE</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-lg-4">
-            <div class="box-icon-wraper">
-              <div class="icon-lef">
-                <i class="fas fa-medal"></i>
-              </div>
-              <div class="icon-text">
-                <h4>CERTIFÍCATE</h4>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-    <!-- inicio cursos  -->
-    <section class="cursos">
-      <div class="container">
-        <div class="box-titulo">
-          <h2>DIPLOMADOS | </h2> <span>Educación de calidad a tu alcance / Sin horarios pre-establecidos / Enfoque 24-7
-            / 100% virtual / ¡Inscríbete ahora!</span>
-        </div>
-        <div class="row ">
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/banners/diplomados/gp-ddhh.jpg"
-                    alt="Gestión pública, recursos humanos y ley del Servicio Civil">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/gestion-publica-recursos-humanos/">Gestión Pública, Recursos Humanos y Ley del
-                    Servicio Civil</a>
-                </div>
-                <div class="detalles">
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
+			<!-- inicio cursos  -->
+			<section class="cursos">
+				<div class="container">
+					<div class="box-titulo">
+						<h2>DIPLOMADOS |</h2>
+						<span
+							>Educación de calidad a tu alcance / Sin horarios pre-establecidos
+							/ Enfoque 24-7 / 100% virtual / ¡Inscríbete ahora!</span
+						>
+					</div>
+					<div class="row">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/recursos_humanos.jpg"
+											alt="Gestión de Estrategias de Enseñanza"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/gestion-de-estrategias-de-ensenanza/"
+											>Asistente de Recursos Humanos</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Inicio: 28 diciembre</p>
+										<p>Horario: 7:00 pm - 10:00 pm</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<!-- <p>
                     <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/gestion-publica-recursos-humanos/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/banners/diplomados/democracia-estado.jpg"
-                    alt="Estado, democracia y derechos humanos">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/estado-democracia-derechos-humanos/">Estado, Democracia y Derechos
-                    Humanos</a>
-                </div>
-                <div class="detalles">
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
+                  </p> -->
+										<br />
+										<p>
+											<span class="precio-actual">S/.300.00</span>
+											<!-- <span class="precio-regular">S/.500.00</span> -->
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/gestion-de-estrategias-de-ensenanza/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/gestion_estrategias.jpg"
+											alt="Gestión de Estrategias de Enseñanza"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/gestion-de-estrategias-de-ensenanza/"
+											>Gestión de Estrategias de Enseñanza</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 8 sesiones</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<!-- <p>
                     <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/estado-democracia-derechos-humanos/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
+                  </p> -->
+										<br />
+										<p>
+											<span class="precio-actual">S/.300.00</span>
+											<!-- <span class="precio-regular">S/.500.00</span> -->
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/gestion-de-estrategias-de-ensenanza/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/derecho-parlamentario.jpg"
+											alt="Derecho Parlamentario"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/derecho-parlamentario/"
+											>Derecho Parlamentario</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 8 sesiones</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-parlamentario/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/derecho-contencioso.jpg"
+											alt="Derecho Contencioso Administrativo"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/derecho-contencioso-administrativo/"
+											>Derecho Contencioso Administrativo</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 8 sesiones</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-contencioso-administrativo/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/gp-ddhh.jpg"
+											alt="Gestión pública, recursos humanos y ley del Servicio Civil"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/gestion-publica-recursos-humanos/"
+											>Gestión Pública, Recursos Humanos y Ley del Servicio
+											Civil</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/gestion-publica-recursos-humanos/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/banners/diplomados/saneamiento-inmobiliaria.jpg"
-                    alt="Saneamiento de la propiedad inmobiliaria">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/estado-democracia-derechos-humanos/">Saneamiento de la Propiedad Inmobiliaria</a>
-                </div>
-                <div class="detalles">
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/saneamiento-propiedad-inmobiliaria/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/democracia-estado.jpg"
+											alt="Estado, democracia y derechos humanos"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/estado-democracia-derechos-humanos/"
+											>Estado, Democracia y Derechos Humanos</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/estado-democracia-derechos-humanos/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/banners/diplomados/ley-comunidades.jpg"
-                    alt="Ley de Comunidades Campesinas, Saneamiento Físico-legal, Propiedad Comunal y Recursos Naturales.">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/ley-comunidades-campesinas-saneamiento-fisico-legal/">Ley de Comunidades
-                    Campesinas y Recursos Naturales.</a>
-                </div>
-                <div class="detalles">
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/ley-comunidades-campesinas-saneamiento-fisico-legal/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/saneamiento-inmobiliaria.jpg"
+											alt="Saneamiento de la propiedad inmobiliaria"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/estado-democracia-derechos-humanos/"
+											>Saneamiento de la Propiedad Inmobiliaria</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/saneamiento-propiedad-inmobiliaria/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class=" colxd col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/gestio-estrategias.jpg" alt="Gestión de Estrategias de Aprendizaje">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/gestion-estrategias-aprendizaje/">Gestión de Estrategias de Aprendizaje</a>
-                </div>
-                <div class="detalles">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/banners/diplomados/ley-comunidades.jpg"
+											alt="Ley de Comunidades Campesinas, Saneamiento Físico-legal, Propiedad Comunal y Recursos Naturales."
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a
+											href="./diplomado/ley-comunidades-campesinas-saneamiento-fisico-legal/"
+											>Ley de Comunidades Campesinas y Recursos Naturales.</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/ley-comunidades-campesinas-saneamiento-fisico-legal/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/gestion-estrategias-aprendizaje/">Más información</a>
-              </div>
-            </div>
-          </div>
-          <div class=" colxd col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/procesal-civil.jpg" alt="Derecho Procesal Civil">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-procesal-civil/">Derecho Procesal Civil</a>
-                </div>
-                <div class="detalles">
+						<div class="colxd col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/gestio-estrategias.jpg"
+											alt="Gestión de Estrategias de Aprendizaje"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/gestion-estrategias-aprendizaje/"
+											>Gestión de Estrategias de Aprendizaje</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/gestion-estrategias-aprendizaje/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="colxd col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/procesal-civil.jpg"
+											alt="Derecho Procesal Civil"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/derecho-procesal-civil/"
+											>Derecho Procesal Civil</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-procesal-civil/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-procesal-civil/">Más información</a>
-              </div>
-            </div>
-          </div>
+						<div class="colxd col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/seguridad-y-salud.jpg"
+											alt="Seguridad y Salud en el Trabajo"
+										/>
+									</div>
+								</div>
 
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/seguridad-y-salud-en-el-trabajo/"
+											>Seguridad y Salud en el Trabajo</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/seguridad-y-salud-en-el-trabajo/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="colxd col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/seguridad-y-salud.jpg" alt="Seguridad y Salud en el Trabajo">
-                </div>
-              </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/penal-y-procesal-penal.jpg"
+											alt="Derecho Penal y Procesal Penal"
+										/>
+									</div>
+								</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/seguridad-y-salud-en-el-trabajo/">Seguridad y Salud en el Trabajo</a>
-                </div>
-                <div class="detalles">
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/derecho-penal-y-procesal-penal/"
+											>Derecho Penal y Procesal Penal</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-penal-y-procesal-penal/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/seguridad-y-salud-en-el-trabajo/">Más información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/saneamiento.jpg"
+											alt="Saneamiento Físico Legal de Predios"
+										/>
+									</div>
+								</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/penal-y-procesal-penal.jpg" alt="Derecho Penal y Procesal Penal">
-                </div>
-              </div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/saneamiento-fisico-legal-de-predios/"
+											>Saneamiento Físico Legal de Predios</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/saneamiento-fisico-legal-de-predios/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-penal-y-procesal-penal/">Derecho Penal y Procesal Penal</a>
-                </div>
-                <div class="detalles">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/derecho-familia-y-procesal-familiar.jpg"
+											alt="Derecho de Familia y Procesal Familiar"
+										/>
+									</div>
+								</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-penal-y-procesal-penal/">Más información</a>
-              </div>
-            </div>
-          </div>
+								<div class="box-info">
+									<div class="titulo">
+										<a
+											href="./diplomado/derecho-de-familia-y-procesal-familiar/"
+											>Derecho de Familia y Procesal Familiar</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-de-familia-y-procesal-familiar/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/saneamiento.jpg" alt="Saneamiento Físico Legal de Predios">
-                </div>
-              </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/rales-inmobiliario-y-registral.jpg"
+											alt="Derechos Reales, Inmobiliario y Registral"
+										/>
+									</div>
+								</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/saneamiento-fisico-legal-de-predios/">Saneamiento Físico Legal de Predios</a>
-                </div>
-                <div class="detalles">
+								<div class="box-info">
+									<div class="titulo">
+										<a
+											href="./diplomado/derechos-reales-inmobiliario-y-registral/"
+											>Derechos Reales, Inmobiliario y Registral</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derechos-reales-inmobiliario-y-registral/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/saneamiento-fisico-legal-de-predios/">Más información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/beneficios-penitenciarios.jpg"
+											alt="Beneficios Penitenciarios"
+										/>
+									</div>
+								</div>
 
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/beneficios-penitenciarios/"
+											>Beneficios Penitenciarios</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/beneficios-penitenciarios/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/derecho-familia-y-procesal-familiar.jpg"
-                    alt="Derecho de Familia y Procesal Familiar">
-                </div>
-              </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/violencia-familiar.jpg"
+											alt="Violencia Familiar y Delitos Sexuales"
+										/>
+									</div>
+								</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-de-familia-y-procesal-familiar/">Derecho de Familia y Procesal
-                    Familiar</a>
-                </div>
-                <div class="detalles">
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/violencia-familiar-y-delitos-sexuales/"
+											>Violencia Familiar y Delitos Sexuales</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/violencia-familiar-y-delitos-sexuales/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-de-familia-y-procesal-familiar/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/litigacion.jpg"
+											alt="Litigación Penal y Oral en el NCPP"
+										/>
+									</div>
+								</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/rales-inmobiliario-y-registral.jpg"
-                    alt="Derechos Reales, Inmobiliario y Registral">
-                </div>
-              </div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/litigacion-penal-y-oral-en-el-ncpp/"
+											>Litigación Penal y Oral en el NCPP</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/litigacion-penal-y-oral-en-el-ncpp/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derechos-reales-inmobiliario-y-registral/">Derechos Reales, Inmobiliario y
-                    Registral</a>
-                </div>
-                <div class="detalles">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/derecho-constitucional.jpg"
+											alt="Derecho Constitucional y Procesal Constitucional"
+										/>
+									</div>
+								</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derechos-reales-inmobiliario-y-registral/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
+								<div class="box-info">
+									<div class="titulo">
+										<a
+											href="./diplomado/derecho-constitucional-y-procesal-constitucional/"
+											>Derecho Constitucional y Procesal Constitucional</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-constitucional-y-procesal-constitucional/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/beneficios-penitenciarios.jpg" alt="Beneficios Penitenciarios">
-                </div>
-              </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/gerencia-municipal.jpg"
+											alt="Gerencia y Administración Municipal"
+										/>
+									</div>
+								</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/beneficios-penitenciarios/">Beneficios Penitenciarios</a>
-                </div>
-                <div class="detalles">
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/gerencia-y-administracion-municipal/"
+											>Gerencia y Administración Municipal</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/gerencia-y-administracion-municipal/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/beneficios-penitenciarios/">Más información</a>
-              </div>
-            </div>
-          </div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/derecho-administrativo.jpg"
+											alt="Derecho Admnistrativo y PAS"
+										/>
+									</div>
+								</div>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/violencia-familiar.jpg" alt="Violencia Familiar y Delitos Sexuales">
-                </div>
-              </div>
+								<div class="box-info">
+									<div class="titulo">
+										<a href="./diplomado/derecho-administrativo-y-pas/"
+											>Derecho Admnistrativo y PAS</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-administrativo-y-pas/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/violencia-familiar-y-delitos-sexuales/">Violencia Familiar y Delitos Sexuales</a>
-                </div>
-                <div class="detalles">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-curso">
+								<div class="box-imagen">
+									<div class="prom">Virtual</div>
+									<div class="imagen">
+										<img
+											src="./dist/images/derecho-transporte.jpg"
+											alt="Derecho del Transporte y Accidentes de Tránsito"
+										/>
+									</div>
+								</div>
+								<div class="box-info">
+									<div class="titulo">
+										<a
+											href="./diplomado/derecho-del-transporte-y-accidentes-de-transito/"
+											>Derecho del Transporte y Accidentes de Tránsito</a
+										>
+									</div>
+									<div class="detalles">
+										<p>Duracion: 1 mes</p>
+										<p>Certificación: 240hrs académicas</p>
+									</div>
+									<div class="precio">
+										<p>
+											<span class="descuento">30% descuento</span>
+										</p>
+										<p>
+											<span class="precio-actual">S/.350.00</span>
+											<span class="precio-regular">S/.500.00</span>
+										</p>
+									</div>
+								</div>
+								<div class="box-masinfo">
+									<a
+										class="btn btn-primary"
+										href="./diplomado/derecho-del-transporte-y-accidentes-de-transito/"
+										>Más información</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- fin cursos -->
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/violencia-familiar-y-delitos-sexuales/">Más información</a>
-              </div>
-            </div>
-          </div>
+			<!-- inicio box certificados emitidos -->
+			<section
+				class="box-certidicados"
+				style="background-image: url('./dist/images/slide_2.jpg')"
+			>
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-items">
+								<div>
+									<span><i class="fas fa-calendar-check"></i></span>
+								</div>
+								<div>
+									<p class="title">400</p>
+									<p class="description">Eventos realizados</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-items">
+								<div>
+									<i class="fas fa-chart-line"></i>
+								</div>
+								<div>
+									<p class="title">2</p>
+									<p class="description">Años de excelencia académica</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-items">
+								<div>
+									<span><i class="fas fa-users"></i></span>
+								</div>
+								<div>
+									<p class="title">1200</p>
+									<p class="description">Estudiantes</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="box-items">
+								<div>
+									<span><i class="fas fa-medal"></i></span>
+								</div>
+								<div>
+									<p class="title">1000</p>
+									<p class="description">Certificados emitidos</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- fin box certificados emitidos -->
+			<!-- inicio empresas que confia en nosotros -->
+			<section class="empresas">
+				<div class="container">
+					<h2 style="margin-top: 2rem; color: #0979cc" class="text-center">
+						INSTITUCIONES
+					</h2>
+					<div class="box-items">
+						<img
+							style="width: 194px; height: 144px"
+							src="./dist/images/logo-empresas/08-MEF.jpg"
+							alt=""
+						/>
+						<img
+							style="width: 194px; height: 144px"
+							src="./dist/images/logo-empresas/09-Minam.jpg"
+							alt=""
+						/>
+						<img
+							style="width: 194px; height: 144px"
+							src="./dist/images/logo-empresas/12-Minjus.jpg"
+							alt=""
+						/>
+						<img
+							style="width: 194px; height: 144px"
+							src="./dist/images/logo-empresas/16-Osce.jpg"
+							alt=""
+						/>
+						<img
+							style="width: 194px; height: 144px"
+							src="./dist/images/logo-empresas/18-PJ.jpg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</section>
+			<!-- fin empresas que confia en nosotros -->
+			<section class="empresas">
+				<div class="container">
+					<h2
+						style="margin-top: 3rem; margin-bottom: 2rem; color: #0979cc"
+						class="text-center"
+					>
+						CONVENIOS INTERINSTITUCIONALES
+					</h2>
+					<p class="text-center m-3">
+						Nuestros convenios nos ayudan a certificar y avalar nuestras
+						actividades académicas. Asimismo otorgar descuentos especiales.
+					</p>
+					<div class="box-items m-4">
+						<img class="logo-cac1" src="./dist/images/logo-cac.png" alt="" />
+						<img
+							class="logo-profesores"
+							src="./dist/images/logo-colegio-profesores.png"
+							alt=""
+						/>
+						<img class="logo-cesul" src="./dist/images/logo_cesul.png" alt="" />
+						<img src="./dist/images/logo_cac_sur.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<section class="empresas">
+				<div class="container">
+					<h2
+						style="margin-top: 5rem; margin-bottom: 2rem; color: #0979cc"
+						class="text-center"
+					>
+						CÁMARA DE COMERCIO EMPRESARIAL
+					</h2>
+					<p class="text-center m-3">
+						Nuestras membresías, como asociado, nos permiten brindar servicios
+						de calidad con el respaldo de siempre.
+					</p>
+					<div class="box-items m-4">
+						<img
+							class="logo-cac"
+							src="./dist/images/logo-empresas/CCL_Asociado.jpg"
+							alt=""
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/litigacion.jpg" alt="Litigación Penal y Oral en el NCPP">
-                </div>
-              </div>
+		<!-- btn whatsapp  -->
+		<div class="btn-whatsapp">
+			<a
+				target="_blank"
+				href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."
+				><i class="fab fa-whatsapp"></i
+			></a>
+		</div>
+		<a href="tel:+51934149549">
+			<div class="call">
+				<span><i class="fas fa-phone-alt"></i></span>
+			</div>
+		</a>
 
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/litigacion-penal-y-oral-en-el-ncpp/">Litigación Penal y Oral en el NCPP</a>
-                </div>
-                <div class="detalles">
+		<!-- footer  -->
+		<footer class="footer">
+			<div class="container">
+				<div class="box-footer">
+					<div class="logo-footer">
+						<img
+							src="./dist/images/logo-enace-blanco.png"
+							alt="logo enace white"
+						/>
+						<p>
+							Escuela Nacional de Asesoría y Capacitación Empresarial – ENACE
+						</p>
+					</div>
+					<div class="navegacion">
+						<h4>NAVEGACIÓN</h4>
+						<div>
+							<a href="./diplomado/"><span>•</span> Diplomados</a>
+							<a href="./programa/"><span>•</span> Programas</a>
+							<a href="./diplomado/"><span>•</span> Promociones</a>
+							<a target="_blank" href="http://campus.enace.edu.pe/"
+								><span>•</span> Campus Virtual</a
+							>
+						</div>
+					</div>
+					<div class="contacto">
+						<h4>CONTACTO</h4>
+						<div>
+							<p>
+								• Edificio Schreiber Business Center Calle Germán Schreiber 276,
+								San Isidro
+							</p>
+							<p>• 934 149 549 / (01) 226 9415</p>
+							<p>• informes@enace.edu.pe</p>
+						</div>
+					</div>
+					<div class="social">
+						<h4>SÍGUENOS EN:</h4>
+						<div>
+							<a href="https://www.facebook.com/EnaceCapacitaciones/"
+								><span class="rs"><i class="fab fa-facebook-f"></i></span>
+								<span>Facebook</span></a
+							>
+							<a
+								target="_blank"
+								href="https://www.youtube.com/channel/UCnw0DPqVA-qYYuMCUeLSlJg"
+								><span class="rs"><i class="fab fa-youtube"></i></span>
+								<span>YouTube</span></a
+							>
+							<a
+								target="_blank"
+								href="https://www.instagram.com/enace_diplomados7"
+								><span class="rs"><i class="fab fa-instagram"></i></span>
+								<span>Instagram</span></a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="medios-pago">
+					<img src="./dist/images/visa.jpg" alt="logo visa" />
+					<img src="./dist/images/mastercard.jpg" alt="logo mastercard" />
+					<img src="./dist/images/pago.jpg" alt="logo pago efectivo" />
+					<img src="./dist/images/payu.jpg" alt="logo payu" />
+					<img src="./dist/images/ssl.jpg" alt="logo certficado de ssl" />
+				</div>
+				<div class="copyright">
+					<p><small>Copyright © 2020 | ENACE</small></p>
+				</div>
+			</div>
+		</footer>
 
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/litigacion-penal-y-oral-en-el-ncpp/">Más información</a>
-              </div>
-            </div>
-          </div>
+		<!-- Optional JavaScript -->
+		<!-- JS Swiper  -->
+		<script src="./dist/js/swiper.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".swiper-container", {
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+				autoplay: {
+					delay: 5000,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+					type: "bullets",
+					clickable: true,
+				},
+			});
+		</script>
 
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/derecho-constitucional.jpg"
-                    alt="Derecho Constitucional y Procesal Constitucional">
-                </div>
-              </div>
-
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-constitucional-y-procesal-constitucional/">Derecho Constitucional y
-                    Procesal Constitucional</a>
-                </div>
-                <div class="detalles">
-
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-constitucional-y-procesal-constitucional/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/gerencia-municipal.jpg" alt="Gerencia y Administración Municipal">
-                </div>
-              </div>
-
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/gerencia-y-administracion-municipal/">Gerencia y Administración Municipal</a>
-                </div>
-                <div class="detalles">
-
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/gerencia-y-administracion-municipal/">Más información</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/derecho-administrativo.jpg" alt="Derecho Admnistrativo y PAS">
-                </div>
-              </div>
-
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-administrativo-y-pas/">Derecho Admnistrativo y PAS</a>
-                </div>
-                <div class="detalles">
-
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-administrativo-y-pas/">Más información</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-curso">
-              <div class="box-imagen">
-                <div class="prom">Virtual</div>
-                <div class="imagen">
-                  <img src="./dist/images/derecho-transporte.jpg" alt="Derecho del Transporte y Accidentes de Tránsito">
-                </div>
-              </div>
-              <div class="box-info">
-                <div class="titulo">
-                  <a href="./diplomado/derecho-del-transporte-y-accidentes-de-transito/">Derecho del Transporte y
-                    Accidentes de Tránsito</a>
-                </div>
-                <div class="detalles">
-                  <p>Duracion: 1 mes</p>
-                  <p>Certificación: 240hrs académicas</p>
-                </div>
-                <div class="precio">
-                  <p>
-                    <span class="descuento">30% descuento</span>
-                  </p>
-                  <p>
-                    <span class="precio-actual">S/.350.00</span>
-                    <span class="precio-regular">S/.500.00</span>
-                  </p>
-                </div>
-              </div>
-              <div class="box-masinfo">
-                <a class="btn btn-primary" href="./diplomado/derecho-del-transporte-y-accidentes-de-transito/">Más
-                  información</a>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-    <!-- fin cursos -->
-
-    <!-- inicio box certificados emitidos -->
-    <section class="box-certidicados" style="background-image: url('./dist/images/slide_2.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-items">
-              <div>
-                <span><i class="fas fa-calendar-check"></i></span>
-              </div>
-              <div>
-                <p class="title">
-                  400
-                </p>
-                <p class="description">Eventos realizados</p>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-items">
-              <div>
-                <i class="fas fa-chart-line"></i>
-              </div>
-              <div>
-                <p class="title">
-                  2
-                </p>
-                <p class="description">Años de excelencia académica</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-items">
-              <div>
-                <span><i class="fas fa-users"></i></span>
-              </div>
-              <div>
-
-                <p class="title">
-                  1200
-                </p>
-                <p class="description">Estudiantes</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="box-items">
-              <div>
-                <span><i class="fas fa-medal"></i></span>
-              </div>
-              <div>
-
-                <p class="title">
-                  1000
-                </p>
-                <p class="description">Certificados emitidos</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- fin box certificados emitidos -->
-    <!-- inicio empresas que confia en nosotros -->
-    <section class="empresas">
-      <div class="container">
-        <h2 style="margin-top: 2rem; color: #0979CC;" class="text-center">INSTITUCIONES</h2>
-        <div class="box-items">
-          <img style="width: 194px; height: 144px;" src="./dist/images/logo-empresas/08-MEF.jpg" alt="">
-          <img style="width: 194px; height: 144px;" src="./dist/images/logo-empresas/09-Minam.jpg" alt="">
-          <img style="width: 194px; height: 144px;" src="./dist/images/logo-empresas/12-Minjus.jpg" alt="">
-          <img style="width: 194px; height: 144px;" src="./dist/images/logo-empresas/16-Osce.jpg" alt="">
-          <img style="width: 194px; height: 144px;" src="./dist/images/logo-empresas/18-PJ.jpg" alt="">
-        </div>
-      </div>
-    </section>
-    <!-- fin empresas que confia en nosotros -->
-    <section class="empresas">
-      <div class="container">
-        <h2 style="margin-top: 3rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CONVENIOS
-          INTERINSTITUCIONALES</h2>
-        <p class="text-center m-3">Nuestros convenios nos ayudan a certificar y avalar nuestras actividades académicas.
-          Asimismo otorgar descuentos especiales.</p>
-        <div class="box-items m-4">
-          <img class="logo-cac1" src="./dist/images/logo-cac.png" alt="">
-          <img class="logo-profesores" src="./dist/images/logo-colegio-profesores.png" alt="">
-          <img class="logo-cesul" src="./dist/images/logo_cesul.png" alt="">
-          <img src="./dist/images/logo_cac_sur.png" alt="">
-        </div>
-      </div>
-    </section>
-    <section class="empresas">
-      <div class="container">
-        <h2 style="margin-top: 5rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CÁMARA DE COMERCIO
-          EMPRESARIAL</h2>
-        <p class="text-center m-3">Nuestras membresías, como asociado, nos permiten brindar servicios de calidad con el
-          respaldo de siempre.</p>
-        <div class="box-items m-4">
-          <img class="logo-cac" src="./dist/images/logo-empresas/CCL_Asociado.jpg" alt="">
-
-        </div>
-      </div>
-    </section>
-
-
-
-
-  </main>
-
-  <!-- btn whatsapp  -->
-  <div class="btn-whatsapp">
-    <a target="_blank"
-      href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
-        class="fab fa-whatsapp"></i></a>
-  </div>
-  <a href="tel:+51934149549">
-    <div class="call">
-      <span><i class="fas fa-phone-alt"></i></span>
-    </div>
-  </a>
-
-  <!-- footer  -->
-  <footer class="footer">
-    <div class="container">
-      <div class="box-footer">
-        <div class="logo-footer">
-          <img src="./dist/images/logo-enace-blanco.png" alt="logo enace white">
-          <p>Escuela Nacional de Asesoría y Capacitación Empresarial – ENACE</p>
-        </div>
-        <div class="navegacion">
-          <h4>NAVEGACIÓN</h4>
-          <div>
-            <a href="./diplomado/"><span>•</span> Diplomados</a>
-            <a href="./programa/"><span>•</span> Programas</a>
-            <a href="./diplomado/"><span>•</span> Promociones</a>
-            <a target="_blank" href="http://campus.enace.edu.pe/"><span>•</span> Campus Virtual</a>
-          </div>
-        </div>
-        <div class="contacto">
-          <h4>CONTACTO</h4>
-          <div>
-            <p>• Edificio Schreiber Business Center
-              Calle Germán Schreiber 276, San Isidro</p>
-            <p>• 934 149 549 / (01) 226 9415</p>
-            <p>• informes@enace.edu.pe</p>
-          </div>
-        </div>
-        <div class="social">
-          <h4>SÍGUENOS EN:</h4>
-          <div>
-            <a href="https://www.facebook.com/EnaceCapacitaciones/"><span class="rs"><i
-                  class="fab fa-facebook-f"></i></span> <span>Facebook</span></a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCnw0DPqVA-qYYuMCUeLSlJg"><span class="rs"><i
-                  class="fab fa-youtube"></i></span> <span>YouTube</span></a>
-            <a target="_blank" href="https://www.instagram.com/enace_diplomados7"><span class="rs"><i
-                  class="fab fa-instagram"></i></span> <span>Instagram</span></a>
-          </div>
-        </div>
-      </div>
-      <div class="medios-pago">
-        <img src="./dist/images/visa.jpg" alt="logo visa">
-        <img src="./dist/images/mastercard.jpg" alt="logo mastercard">
-        <img src="./dist/images/pago.jpg" alt="logo pago efectivo">
-        <img src="./dist/images/payu.jpg" alt="logo payu">
-        <img src="./dist/images/ssl.jpg" alt="logo certficado de ssl">
-      </div>
-      <div class="copyright">
-        <p><small>Copyright © 2020 | ENACE</small></p>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- JS Swiper  -->
-  <script src="./dist/js/swiper.min.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 5000,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-      }
-    });
-  </script>
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="./dist/js/jquery-3.4.1.min.js"></script>
-  <script src="./dist/js/popper.min.js"></script>
-  <script src="./dist/js/bootstrap.min.js"></script>
-</body>
-
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="./dist/js/jquery-3.4.1.min.js"></script>
+		<script src="./dist/js/popper.min.js"></script>
+		<script src="./dist/js/bootstrap.min.js"></script>
+	</body>
 </html>
