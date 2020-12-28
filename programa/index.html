@@ -10,7 +10,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176587730-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-176587730-1');
@@ -22,8 +25,7 @@
   <link rel="stylesheet" href="../dist/css/main.css?v1.3">
   <link rel="stylesheet" href="../dist/css/lp-courses.css">
   <!-- google fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
   <!-- <link rel="stylesheet" href="../dist/css/swiper.min.css"> -->
   <!-- icons fontawesome  -->
   <script src="https://kit.fontawesome.com/4f57ccf18e.js" crossorigin="anonymous"></script>
@@ -32,14 +34,21 @@
 
   <!-- Facebook Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
         n.callMethod ?
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
@@ -56,10 +65,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container">
-        <a class="navbar-brand" href="https://enace.edu.pe/"><img class="logo" src="../dist/images/logo-enace.jpg"
-            alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="https://enace.edu.pe/"><img class="logo" src="../dist/images/logo-enace.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div style="justify-content: flex-end;" class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -271,6 +278,86 @@
             / 100% virtual / ¡Inscríbete ahora!</span>
         </div>
         <div class="row ">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="box-curso">
+              <div class="box-imagen">
+                <div class="prom">Virtual</div>
+                <div class="prog">Formación Técnica</div>
+                <div class="imagen">
+                  <img src="../dist/images/programa/asistente-logistica.jpg" alt="Gestión de Estrategias de Enseñanza" />
+                </div>
+              </div>
+              <div class="box-info">
+                <div class="titulo">
+                  <a href="./programa/asistente-logistica/">Asistente de Logística y Almacenes</a
+                    >
+                  </div>
+                  <div class="detalles">
+                    <p>Inicio: 12 enero</p>
+                    <p>Horario: 7:00 pm - 10:00 pm</p>
+                    <!-- <p>Certificación: 240hrs académicas</p> -->
+                  </div>
+                  <div class="precio">
+                    <!-- <p>
+                    <span class="descuento">30% descuento</span>
+          </p> -->
+          <br />
+          <p>
+            </br>
+            </br>
+            <!-- <span class="precio-actual">S/.300.00</span> -->
+            <!-- <span class="precio-regular">S/.500.00</span> -->
+          </p>
+        </div>
+      </div>
+      <div class="box-masinfo">
+        <a class="btn btn-primary" href="./asistente-logistica/">Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="box-curso">
+                <div class="box-imagen">
+                  <div class="prom">Virtual</div>
+                  <div class="imagen">
+                    <img
+                      src="../dist/images/banners/recursos_humanos.jpg"
+                      alt="Gestión de Estrategias de Enseñanza"
+                    />
+                  </div>
+                </div>
+                <div class="box-info">
+                  <div class="titulo">
+                    <a href="./asistente-de-recursos-humanos/"
+                      >Asistente de Recursos Humanos</a
+                    >
+                  </div>
+                  <div class="detalles">
+                    <p>Inicio: 28 diciembre</p>
+                    <p>Horario: 7:00 pm - 10:00 pm</p>
+                    <p>Certificación: 240hrs académicas</p>
+                  </div>
+                  <div class="precio">
+                    <!-- <p>
+                    <span class="descuento">30% descuento</span>
+          </p> -->
+                    <br />
+                    <p>
+                      <span class="precio-actual">S/.300.00</span>
+                      <!-- <span class="precio-regular">S/.500.00</span> -->
+                    </p>
+                  </div>
+                </div>
+                <div class="box-masinfo">
+                  <a
+                    class="btn btn-primary"
+                    href="./diplomado/gestion-de-estrategias-de-ensenanza/"
+                    >Más información</a
+                  >
+                </div>
+              </div>
+            </div>
           <!-- asistente contable  -->
           <div class=" colxd col-12 col-sm-6 col-md-4 col-lg-3">
             <div class="box-curso">
@@ -490,10 +577,9 @@
     <!-- fin empresas que confia en nosotros -->
     <section class="empresas">
       <div class="container">
-        <h2 style="margin-top: 3rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CONVENIOS
-          INTERINSTITUCIONALES</h2>
-        <p class="text-center m-3">Nuestros convenios nos ayudan a certificar y avalar nuestras actividades académicas.
-          Asimismo otorgar descuentos especiales.</p>
+        <h2 style="margin-top: 3rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CONVENIOS INTERINSTITUCIONALES
+        </h2>
+        <p class="text-center m-3">Nuestros convenios nos ayudan a certificar y avalar nuestras actividades académicas. Asimismo otorgar descuentos especiales.</p>
         <div class="box-items m-4">
           <img class="logo-c4ac" src="../dist/images/logo-cac.png" alt="">
           <img class="logo-profesores" src="../dist/images/logo-colegio-profesores.png" alt="">
@@ -504,10 +590,9 @@
     </section>
     <section class="empresas">
       <div class="container">
-        <h2 style="margin-top: 5rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CÁMARA DE COMERCIO
-          EMPRESARIAL</h2>
-        <p class="text-center m-3">Nuestras membresías, como asociado, nos permiten brindar servicios de calidad con el
-          respaldo de siempre.</p>
+        <h2 style="margin-top: 5rem; margin-bottom: 2rem; color: #0979CC;" class="text-center">CÁMARA DE COMERCIO EMPRESARIAL
+        </h2>
+        <p class="text-center m-3">Nuestras membresías, como asociado, nos permiten brindar servicios de calidad con el respaldo de siempre.</p>
         <div class="box-items m-4">
           <img class="logo-cac" src="../dist/images/logo-empresas/CCL_Asociado.jpg" alt="">
 
@@ -522,8 +607,7 @@
 
   <!-- btn whatsapp  -->
   <div class="btn-whatsapp">
-    <a target="_blank"
-      href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
+    <a target="_blank" href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
         class="fab fa-whatsapp"></i></a>
   </div>
   <a href="tel:+51934149549">
@@ -552,8 +636,7 @@
         <div class="contacto">
           <h4>CONTACTO</h4>
           <div>
-            <p>• Edificio Schreiber Business Center
-              Calle Germán Schreiber 276, San Isidro</p>
+            <p>• Edificio Schreiber Business Center Calle Germán Schreiber 276, San Isidro</p>
             <p>• 934 149 549 / (01) 226 9415</p>
             <p>• informes@enace.edu.pe</p>
           </div>
