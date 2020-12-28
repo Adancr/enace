@@ -17,14 +17,15 @@
     top: 93%;
     left: 1%;
   }
-
   a {
     color: white;
     font-size: 3.5rem;
   }
 }
 
-/*button call*/ 
+
+/*button call*/
+
 .call {
   display: none;
   position: fixed;
@@ -34,16 +35,16 @@
   color: $color-white;
   border-radius: 15px;
   .fas {
-      font-size: 3.5rem;
-      padding: .8rem 1rem;
+    font-size: 3.5rem;
+    padding: 0.8rem 1rem;
   }
-  @media (max-width:768px) {
-      display: inline-block;
+  @media (max-width: 768px) {
+    display: inline-block;
   }
-} 
+}
 
-// BTN SLIDER 
+// BTN SLIDER
 .btn-primary {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.6rem;
 }

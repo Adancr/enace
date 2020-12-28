@@ -44,7 +44,7 @@
 
 .call .fas {
   font-size: 3.5rem;
-  padding: .8rem 1rem;
+  padding: 0.8rem 1rem;
 }
 
 @media (max-width: 768px) {
@@ -54,7 +54,7 @@
 }
 
 .btn-primary {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.6rem;
 }
 
@@ -293,6 +293,17 @@ section.swiper-container .swiper-slide::before {
   right: 0.6rem;
   top: 0.7rem;
   background-color: #0979CC;
+  color: #ffffff;
+  padding: 2px 4px;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+.cursos .box-curso .prog {
+  position: absolute;
+  left: 0.6rem;
+  top: 0.7rem;
+  background-color: #0979cc;
   color: #ffffff;
   padding: 2px 4px;
   font-size: 1.4rem;

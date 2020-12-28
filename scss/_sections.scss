@@ -48,13 +48,11 @@ section.swiper-container {
     @media (max-width: 767px) {
       justify-content: center;
       padding-bottom: 1.8rem;
-      
     }
   }
 }
 
 // list de cursos
-
 .cursos {
   background-color: $color-grey;
   .box-titulo {
@@ -66,14 +64,12 @@ section.swiper-container {
       padding-left: 0.4rem;
       // display: inline-block;
     }
-
     @media (max-width: 750px) {
       display: block;
       h2 {
         display: inline-block;
       }
     }
-    
   }
   // .colxd {
   //   margin-left: 10px !important;
@@ -97,6 +93,16 @@ section.swiper-container {
       top: 0.7rem;
       background-color: $color-primary-light;
       color: $color-white;
+      padding: 2px 4px;
+      font-size: 1.4rem;
+      border-radius: 4px;
+    }
+    .prog {
+      position: absolute;
+      left: 0.6rem;
+      top: 0.7rem;
+      background-color: #0979cc;
+      color: #ffffff;
       padding: 2px 4px;
       font-size: 1.4rem;
       border-radius: 4px;
@@ -141,7 +147,6 @@ section.swiper-container {
         }
       }
     }
-
     .box-masinfo {
       text-align: center;
       padding-bottom: 0.7rem;
@@ -168,7 +173,6 @@ section.swiper-container {
     align-items: center;
     justify-content: center;
     justify-items: center;
-
     .logo-cac {
       width: 429px;
       height: 146px;
@@ -184,7 +188,6 @@ section.swiper-container {
         width: 300px;
         height: 102px;
       }
-    
     }
     .logo-cesul {
       width: 283px;
@@ -197,7 +200,6 @@ section.swiper-container {
         width: 250px;
         height: 131px;
       }
-    
     }
     .logo-profesores {
       width: 102px;
@@ -206,13 +208,11 @@ section.swiper-container {
         width: 73px;
         height: 105px;
       }
-    
     }
   }
 }
 
 // certificados
-
 .box-certidicados {
   background-size: cover;
   // background-position: center center fixed;
@@ -221,7 +221,6 @@ section.swiper-container {
   height: 25rem;
   display: flex;
   align-items: center;
-
   @media (max-width: 810px) {
     height: 36rem;
   }
@@ -263,7 +262,6 @@ section.swiper-container {
 }
 
 // footer
-
 // metodos de pago
 .medios-pago {
   padding: 2rem 0;
