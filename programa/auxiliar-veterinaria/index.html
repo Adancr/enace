@@ -9,7 +9,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176587730-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-176587730-1');
@@ -19,9 +22,7 @@
   <!-- <link rel="stylesheet" href="../../dist/css/reset.css"> -->
   <link rel="stylesheet" href="../../dist/css/lp-courses-beneficios.css">
   <script src="https://kit.fontawesome.com/4f57ccf18e.js" crossorigin="anonymous"></script>
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Roboto:400,500,700,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Roboto:400,500,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
 
   <title>Progrma: Auxiliar de veterinaria | Escuela ENACE</title>
@@ -35,14 +36,21 @@
 
   <!-- Facebook Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
         n.callMethod ?
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
@@ -58,10 +66,8 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light pb-navbar">
     <div class="container">
-      <a class="navbar-brand logo" href="https://enace.edu.pe/"><img style="max-width: 60px;"
-          src="../../dist/images/logo-enace.jpg" alt="logo enace"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand logo" href="https://enace.edu.pe/"><img style="max-width: 60px;" src="../../dist/images/logo-enace.jpg" alt="logo enace"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -117,8 +123,7 @@
 
           <div id="contact" class="col-md-5">
             <!-- Form lp_web diplomado Violencia contra la mujer  -->
-            <form class="form-contact ml-block-form" action="https://app.mailerlite.com/webforms/submit/l3c5c1"
-              data-code="l3c5c1" method="post">
+            <form class="form-contact ml-block-form" action="https://app.mailerlite.com/webforms/submit/l3c5c1" data-code="l3c5c1" method="post">
               <h2>Déjanos tus datos para reservar su vacante.</h2>
               <hr>
               <!-- datos  -->
@@ -126,8 +131,7 @@
                 <div class=" input-group-prepend ">
                   <span class=" input-group-text "><i class=" fas fa-user "></i></span>
                 </div>
-                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[name]" id="name"
-                  placeholder="Primer nombre" autocomplete="name" required>
+                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[name]" id="name" placeholder="Primer nombre" autocomplete="name" required>
                 <div class="error-nombre "></div>
               </div>
 
@@ -135,8 +139,7 @@
                 <div class=" input-group-prepend ">
                   <span class=" input-group-text "><i class=" fas fa-user "></i></span>
                 </div>
-                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[last_name]"
-                  id="name" placeholder="Apellido" autocomplete="name" required>
+                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[last_name]" id="name" placeholder="Apellido" autocomplete="name" required>
                 <div class="error-nombre "></div>
               </div>
 
@@ -144,8 +147,7 @@
                 <div class="input-group-prepend ">
                   <span class="input-group-text "><i class="fas fa-envelope "></i></span>
                 </div>
-                <input class="form-control p-height-50" type="email" data-inputmask="" name="fields[email]" id="email"
-                  placeholder="Correo Electrónico" autocomplete="email" required>
+                <input class="form-control p-height-50" type="email" data-inputmask="" name="fields[email]" id="email" placeholder="Correo Electrónico" autocomplete="email" required>
                 <div class="error-mail"></div>
               </div>
 
@@ -153,8 +155,7 @@
                 <div class="input-group-prepend ">
                   <span class="input-group-text "><i class="fas fa-phone-alt "></i></i></span>
                 </div>
-                <input class="form-control p-height-50" type="text" data-inputmask="" name="fields[phone]" id="phone"
-                  placeholder="Número Celular" autocomplete="" required minlenght="9">
+                <input class="form-control p-height-50" type="text" data-inputmask="" name="fields[phone]" id="phone" placeholder="Número Celular" autocomplete="" required minlenght="9">
                 <div class="error-phone "></div>
               </div>
 
@@ -174,8 +175,7 @@
               <!-- <input type="hidden " name="ml-submit " value="1 "> -->
 
               <div class="form-group ">
-                <button type="submit" class="primary btn btn-primary btn-block btn-lg" name="submit"
-                  id="btn-ingresar">Reserva tu vacante </button>
+                <button type="submit" class="primary btn btn-primary btn-block btn-lg" name="submit" id="btn-ingresar">Reserva tu vacante </button>
                 <button disabled="disabled" style="display:none " type="button" class="loading ">
                   <div class="ml-form-embedSubmitLoad ">
                     <div></div>
@@ -258,10 +258,8 @@
         <div class="row ">
           <div class="col-md-7 ">
             <h3>PRESENTACIÓN</h3>
-            <p>El programa de formación de auxiliar de veterinaria tiene como objetivo brindar conocimientos técnicos en
-              atención de triaje, control de ambientes y soporte en cirugías, lo que permitirá brindar un apropiado
-              apoyo al veterinario. Asimismo, permitirá llevar una adecuada administración, organización y logística de
-              una veterinaria, según el tipo de negocio. El programa incluye talleres complementarios.</p>
+            <p>El programa de formación de auxiliar de veterinaria tiene como objetivo brindar conocimientos técnicos en atención de triaje, control de ambientes y soporte en cirugías, lo que permitirá brindar un apropiado apoyo al veterinario. Asimismo,
+              permitirá llevar una adecuada administración, organización y logística de una veterinaria, según el tipo de negocio. El programa incluye talleres complementarios.</p>
           </div>
           <div class="col-md-5 ">
             <img src="../../dist/images/rd-veterinaria.jpg" alt=" ">
@@ -401,8 +399,7 @@
           </div>
           <ul>
             <li>
-              <h4>Se emitirá el certificado debidamente validado y respaldado por la Escuela Nacional de Asesoría y
-                Capacitación Empresarial.</h4>
+              <h4>Se emitirá el certificado debidamente validado y respaldado por la Escuela Nacional de Asesoría y Capacitación Empresarial.</h4>
             </li>
           </ul>
         </div>
@@ -432,8 +429,8 @@
               <!-- <img src="../../images/icon-material-lb.png" alt=" "> -->
               <div class="benefits-items-text ">
                 <h4>Material Didáctico</h4>
-                <p>Clases, separatas, videos y material complementario al cual usted podrá acceder desde el inicio del
-                  Curso.</p>
+                <p>Clases, separatas, videos y material complementario al cual usted podrá acceder desde el inicio del Curso.
+                </p>
               </div>
             </div>
           </div>
@@ -454,8 +451,7 @@
               <!-- <img src="../../images/icon-certeficado-lb.png" alt=" "> -->
               <div class="benefits-items-text ">
                 <h4>Certificación</h4>
-                <p> Se emitirá el certificado debidamente validado y respaldado por la Escuela Nacional
-                  de Asesoría y Capacitación Empresarial.</p>
+                <p> Se emitirá el certificado debidamente validado y respaldado por la Escuela Nacional de Asesoría y Capacitación Empresarial.</p>
               </div>
             </div>
           </div>
@@ -472,11 +468,8 @@
           <div class="col-12 col-md-6 ">
             <!-- <img src="../../images/luis-hallazi.jpg" alt="Fernando Alexander Matos Rimachi"> -->
             <h3 class="text-center">CIP Nº 213627 ING. Alfredo Tamayo Maticorena</h3>
-            <p class="text-center">Bachiller en Ciencias – Zootecnia por la Universidad Nacional Agraria La Molina, con
-              título de Ingeniero Zootecnista. Especialista en manejo y nutrición de animales de granja, formulación y
-              elaboración de dietas balanceadas. Cuenta con amplia experiencia profesional en el área de producción de
-              pollos de engorde y gallinas ponedoras. Docente del programa de formación técnica de la Escuela Nacional
-              de Asesoría y Capacitación Empresarial</p>
+            <p class="text-center">Bachiller en Ciencias – Zootecnia por la Universidad Nacional Agraria La Molina, con título de Ingeniero Zootecnista. Especialista en manejo y nutrición de animales de granja, formulación y elaboración de dietas balanceadas. Cuenta con amplia
+              experiencia profesional en el área de producción de pollos de engorde y gallinas ponedoras. Docente del programa de formación técnica de la Escuela Nacional de Asesoría y Capacitación Empresarial</p>
           </div>
         </div>
       </div>
@@ -490,35 +483,31 @@
             <h3>CERTIFICACIÓN</h3>
           </button>
           <div class="panel">
-            <p>Al finalizar el programa de formación técnica se le expedirá un certificado debidamente acreditado y
-              respaldado por la Escuela Nacional de Asesoría y Capacitación Empresarial, por un total de 1200 horas
-              académicas.</p>
+            <p>Al finalizar el programa de formación técnica se le expedirá un certificado debidamente acreditado y respaldado por la Escuela Nacional de Asesoría y Capacitación Empresarial, por un total de 1200 horas académicas.
+            </p>
           </div>
           <button class="accordion">
             <h3>ENTREGA DE DIPLOMAS</h3>
           </button>
           <div class="panel">
-            <p>En la oficina de la Escuela ENACE | Edificio Schreiber Business Center Calle Germán Schreiber 276, San
-              Isidro
-              . <br>Para provincia: Se remitirá previa coordinación por mensajería
-              Olva Courier (se precisa que el costo por el envío será asumido por el participante).</p>
+            <p>En la oficina de la Escuela ENACE | Edificio Schreiber Business Center Calle Germán Schreiber 276, San Isidro . <br>Para provincia: Se remitirá previa coordinación por mensajería Olva Courier (se precisa que el costo por el envío será asumido
+              por el participante).</p>
           </div>
-          <button class="accordion">
+          <!-- <button class="accordion">
             <h4>MODALIDADES DE ESTUDIO: PRESENCIAL</h4>
           </button>
           <div class="panel">
             <p>El participante que se inscriba en la modalidad presencial, asiste a las sesiones de clase en nuestro
               auditorio, en el horario establecido. Tendrá todos los materiales académicos entregados por el profesor de
               manera impresa o digital para las sesiones.</p>
-          </div>
+          </div> -->
           <button class="accordion">
             <h4>MODALIDADES DE ESTUDIO: VIRTUAL</h4>
           </button>
           <div class="panel">
-            <p>El participante que se inscriba en la modalidad virtual, tendrá acceso las 24 horas del día a nuestra
-              plataforma virtual donde encontrará todos los materiales académicos utilizados por cada profesor en sus
-              sesiones (diapositivas y videos). El certificado tiene el mismo valor académico que la modalidad
-              presencial.</p>
+            <p>El participante que se inscriba en la modalidad virtual, tendrá acceso las 24 horas del día a nuestra plataforma virtual donde encontrará todos los materiales académicos utilizados por cada profesor en sus sesiones (diapositivas y videos).
+              El certificado tiene el mismo valor académico que la modalidad presencial.
+            </p>
           </div>
         </div>
 
@@ -592,8 +581,7 @@
 
       <!-- boton wp  -->
       <div class="btn-whatsapp">
-        <a target="_blank"
-          href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
             class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </div>
       <!-- fin boton wp  -->
@@ -666,35 +654,35 @@
         </div>
       </footer>
 
-  </div>
-  <!-- end scroll  -->
-  <!-- <script src="../../dist/js/main.js"></script> -->
+      </div>
+      <!-- end scroll  -->
+      <!-- <script src="../../dist/js/main.js"></script> -->
 
-  <script src="../../dist/js/courses.js"></script>
+      <script src="../../dist/js/courses.js"></script>
 
-  <!-- wp support  -->
-  <!-- <script src="../../dist/js/wp_support.js"></script>  -->
-
-
+      <!-- wp support  -->
+      <!-- <script src="../../dist/js/wp_support.js"></script>  -->
 
 
 
-  <!-- Script subscriber mailerte  -->
-  <script>
-    function ml_webform_success_1886594() { var r = ml_jQuery || jQuery; r(".ml-subscribe-form-1886594 .row-success").show(), r(".ml-subscribe-form-1886594 .row-form").hide() }
-  </script>
-  <img src="https://track.mailerlite.com/webforms/o/1886594/l3c5c1?v87f6253ef300d8389c2a107d688de385" width="1"
-    height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="."
-    border="0">
-  <script src="https://static.mailerlite.com/js/w/webforms.min.js?v87f6253ef300d8389c2a107d688de385"
-    type="text/javascript"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="../../dist/js/jquery-3.4.1.min.js"></script>
-  <script src="../../dist/js/bootstrap.min.js"></script>
-  <script src="../../dist/js/popper.min.js"></script>
-  <script src="../../dist/js/swiper.min.js"></script>
+
+      <!-- Script subscriber mailerte  -->
+      <script>
+        function ml_webform_success_1886594() {
+          var r = ml_jQuery || jQuery;
+          r(".ml-subscribe-form-1886594 .row-success").show(), r(".ml-subscribe-form-1886594 .row-form").hide()
+        }
+      </script>
+      <img src="https://track.mailerlite.com/webforms/o/1886594/l3c5c1?v87f6253ef300d8389c2a107d688de385" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+      <script src="https://static.mailerlite.com/js/w/webforms.min.js?v87f6253ef300d8389c2a107d688de385" type="text/javascript"></script>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="../../dist/js/jquery-3.4.1.min.js"></script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <script src="../../dist/js/popper.min.js"></script>
+      <script src="../../dist/js/swiper.min.js"></script>
 </body>
 
 </html>
