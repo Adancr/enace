@@ -9,7 +9,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176587730-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-176587730-1');
@@ -19,9 +22,7 @@
   <!-- <link rel="stylesheet" href="../../dist/css/reset.css"> -->
   <link rel="stylesheet" href="../../dist/css/lp-diplomado-derecho-parlamentario.css">
   <script src="https://kit.fontawesome.com/4f57ccf18e.js" crossorigin="anonymous"></script>
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Roboto:400,500,700,900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Roboto:400,500,700,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
 
   <title>Diplomado "Derecho Parlamentario" | Escuela ENACE</title>
@@ -36,14 +37,21 @@
 
   <!-- Facebook Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
         n.callMethod ?
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
@@ -60,10 +68,8 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light pb-navbar">
     <div class="container">
-      <a class="navbar-brand logo" href="https://enace.edu.pe/"><img style="max-width: 60px;"
-          src="../../dist/images/logo-enace.jpg" alt="logo enace"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand logo" href="https://enace.edu.pe/"><img style="max-width: 60px;" src="../../dist/images/logo-enace.jpg" alt="logo enace"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -119,18 +125,16 @@
 
           <div id="contact" class="col-md-5">
             <!-- Form lp_web diplomado Violencia contra la mujer  -->
-            <form class="form-contact ml-block-form" action="https://app.mailerlite.com/webforms/submit/y3m2g0"
-              data-code="y3m2g0" method="post">
-              <h2>Déjanos tus datos para reservar su vacante con un <span><strong>30%</strong></span> de descuento en el
-                diplomado</h2>
+            <form class="form-contact ml-block-form" action="https://app.mailerlite.com/webforms/submit/y3m2g0" data-code="y3m2g0" method="post">
+              <h2>Déjanos tus datos para reservar su vacante con un <span><strong>30%</strong></span> de descuento en el diplomado
+              </h2>
               <hr>
               <!-- datos  -->
               <div class=" form-group ">
                 <div class=" input-group-prepend ">
                   <span class=" input-group-text "><i class=" fas fa-user "></i></span>
                 </div>
-                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[name]" id="name"
-                  placeholder="Primer nombre" autocomplete="name" required>
+                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[name]" id="name" placeholder="Primer nombre" autocomplete="name" required>
                 <div class="error-nombre "></div>
               </div>
 
@@ -138,8 +142,7 @@
                 <div class=" input-group-prepend ">
                   <span class=" input-group-text "><i class=" fas fa-user "></i></span>
                 </div>
-                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[last_name]"
-                  id="name" placeholder="Apellido" autocomplete="name" required>
+                <input type=" text" class=" form-control p-height-50" data-inputmask="" name="fields[last_name]" id="name" placeholder="Apellido" autocomplete="name" required>
                 <div class="error-nombre "></div>
               </div>
 
@@ -147,8 +150,7 @@
                 <div class="input-group-prepend ">
                   <span class="input-group-text "><i class="fas fa-envelope "></i></span>
                 </div>
-                <input class="form-control p-height-50" type="email" data-inputmask="" name="fields[email]" id="email"
-                  placeholder="Correo Electrónico" autocomplete="email" required>
+                <input class="form-control p-height-50" type="email" data-inputmask="" name="fields[email]" id="email" placeholder="Correo Electrónico" autocomplete="email" required>
                 <div class="error-mail"></div>
               </div>
 
@@ -156,8 +158,7 @@
                 <div class="input-group-prepend ">
                   <span class="input-group-text "><i class="fas fa-phone-alt "></i></i></span>
                 </div>
-                <input class="form-control p-height-50" type="text" data-inputmask="" name="fields[phone]" id="phone"
-                  placeholder="Número Celular" autocomplete="" required minlenght="9">
+                <input class="form-control p-height-50" type="text" data-inputmask="" name="fields[phone]" id="phone" placeholder="Número Celular" autocomplete="" required minlenght="9">
                 <div class="error-phone "></div>
               </div>
 
@@ -177,8 +178,7 @@
               <!-- <input type="hidden " name="ml-submit " value="1 "> -->
 
               <div class="form-group ">
-                <button type="submit" class="primary btn btn-primary btn-block btn-lg" name="submit"
-                  id="btn-ingresar">Reserva tu vacante </button>
+                <button type="submit" class="primary btn btn-primary btn-block btn-lg" name="submit" id="btn-ingresar">Reserva tu vacante </button>
                 <button disabled="disabled" style="display:none " type="button" class="loading ">
                   <div class="ml-form-embedSubmitLoad ">
                     <div></div>
@@ -261,8 +261,7 @@
         <div class="row ">
           <div class="col-md-7 ">
             <h3>PRESENTACIÓN</h3>
-            <p>Especialízate en el funcionamiento del parlamento peruano en este diplomado de 8 sesiones en las cuales
-              se abordarán los principales conceptos del derecho parlamentario.
+            <p>Especialízate en el funcionamiento del parlamento peruano en este diplomado de 8 sesiones en las cuales se abordarán los principales conceptos del derecho parlamentario.
             </p>
           </div>
           <div class="col-md-5 ">
@@ -362,8 +361,8 @@
               <!-- <img src="../../images/icon-material-lb.png" alt=" "> -->
               <div class="benefits-items-text ">
                 <h4>Material Didáctico</h4>
-                <p>Clases, separatas, videos y material complementario al cual usted podrá acceder desde el inicio del
-                  Curso.</p>
+                <p>Clases, separatas, videos y material complementario al cual usted podrá acceder desde el inicio del Curso.
+                </p>
               </div>
             </div>
           </div>
@@ -384,8 +383,7 @@
               <!-- <img src="../../images/icon-certeficado-lb.png" alt=" "> -->
               <div class="benefits-items-text ">
                 <h4>Certificaciones disponibles</h4>
-                <p>Al finalizar el diplomado se le expedirá un certificado a nombre de ENACE
-                  y un Colegio Profesional.</p>
+                <p>Al finalizar el diplomado se le expedirá un certificado a nombre de ENACE y un Colegio Profesional.</p>
 
               </div>
             </div>
@@ -446,9 +444,8 @@
               <li><i class="fas fa-check"></i> <strong>Colegio de Abogados de Lima Sur</strong></li>
               <li> <i class="fas fa-check"></i> <strong>Colegio de Abogados del Callao</strong></li>
               <br>
-              <li>Al finalizar el diplomado se le expedirá un certificado a nombre de ENACE
-                y un Colegio Profesional (Colegio de Abogados de Lima Sur o Colegio de Abogados del Callao) por un total
-                de 240 horas académicas. Válido para concursos en entidades públicas o privadas.</li>
+              <li>Al finalizar el diplomado se le expedirá un certificado a nombre de ENACE y un Colegio Profesional (Colegio de Abogados de Lima Sur o Colegio de Abogados del Callao) por un total de 240 horas académicas. Válido para concursos en entidades
+                públicas o privadas.</li>
             </ul>
 
           </div>
@@ -456,10 +453,7 @@
             <h3>ENTREGA DE DIPLOMAS</h3>
           </button>
           <div class="panel">
-            <p>En la oficina de la Escuela ENACE | Edificio Schreiber Business Center Calle Germán Schreiber 276, San
-              Isidro
-              . <br>Para provincia: Se remitirá previa coordinación por mensajería
-              Olva Courier (se precisa que el costo por el envío será asumido por el participante).</p>
+            <p>Alameda Juan Pablo Vizcardo y Guzmán 424 Urb. Los Precursores, Santiago de Surco<br>Para provincia: Se remitirá previa coordinación por mensajería Olva Courier (se precisa que el costo por el envío será asumido por el participante).</p>
           </div>
           <!-- <button class="accordion">
             <h4>MODALIDADES DE ESTUDIO: PRESENCIAL</h4>
@@ -472,8 +466,7 @@
             <h4>MODALIDADES DE ESTUDIO: VIRTUAL EN VIVO</h4>
           </button>
           <div class="panel">
-            <p>El participante tendrá acceso al diplomado a través de la plataforma Zoom y podrá acceder al material
-              académico a través de nuestro campus virtual. El examen final se rendirá mediante la plataforma virtual.
+            <p>El participante tendrá acceso al diplomado a través de la plataforma Zoom y podrá acceder al material académico a través de nuestro campus virtual. El examen final se rendirá mediante la plataforma virtual.
             </p>
           </div>
         </div>
@@ -567,7 +560,7 @@
         <div class="icon-contacts">
           <i class="fas fa-map-marker-alt"></i>
           <h4>Dirección</h4>
-          <p>Edificio Schreiber Business Center <br> Calle Germán Schreiber 276, San Isidro</p>
+          <p>Alameda Juan Pablo Vizcardo y Guzmán 424 Urb. Los Precursores, Santiago de Surco</p>
         </div>
         <div class="icon-contacts">
           <i class="fas fa-envelope"></i>
@@ -578,8 +571,7 @@
 
       <!-- boton wp  -->
       <div class="btn-whatsapp">
-        <a target="_blank"
-          href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=51934149549&text=Necesito%20informaci%C3%B3n%20sobre%20los%20diplomados."><i
             class="fab fa-whatsapp" aria-hidden="true"></i></a>
       </div>
       <!-- fin boton wp  -->
@@ -652,34 +644,35 @@
         </div>
       </footer>
 
-  </div>
-  <!-- end scroll  -->
-  <!-- <script src="../../dist/js/main.js"></script> -->
+      </div>
+      <!-- end scroll  -->
+      <!-- <script src="../../dist/js/main.js"></script> -->
 
-  <script src="../../dist/js/courses.js"></script>
+      <script src="../../dist/js/courses.js"></script>
 
-  <!-- wp support  -->
-  <!-- <script src="../../dist/js/wp_support.js"></script>  -->
-
-
+      <!-- wp support  -->
+      <!-- <script src="../../dist/js/wp_support.js"></script>  -->
 
 
 
-  <!-- Script subscriber mailerte  -->
-  <script>
-    function ml_webform_success_2819020() { var r = ml_jQuery || jQuery; r(".ml-subscribe-form-2819020 .row-success").show(), r(".ml-subscribe-form-2819020 .row-form").hide() }
-  </script>
-  <img src="https://track.mailerlite.com/webforms/o/2819020/y3m2g0?v1602353588" width="1" height="1"
-    style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
-  <script src="https://static.mailerlite.com/js/w/webforms.min.js?v3fd38428efea6ca0487b1230e27a86c6"
-    type="text/javascript"></script>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="../../dist/js/jquery-3.4.1.min.js"></script>
-  <script src="../../dist/js/bootstrap.min.js"></script>
-  <script src="../../dist/js/popper.min.js"></script>
-  <script src="../../dist/js/swiper.min.js"></script>
+
+      <!-- Script subscriber mailerte  -->
+      <script>
+        function ml_webform_success_2819020() {
+          var r = ml_jQuery || jQuery;
+          r(".ml-subscribe-form-2819020 .row-success").show(), r(".ml-subscribe-form-2819020 .row-form").hide()
+        }
+      </script>
+      <img src="https://track.mailerlite.com/webforms/o/2819020/y3m2g0?v1602353588" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
+      <script src="https://static.mailerlite.com/js/w/webforms.min.js?v3fd38428efea6ca0487b1230e27a86c6" type="text/javascript"></script>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="../../dist/js/jquery-3.4.1.min.js"></script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <script src="../../dist/js/popper.min.js"></script>
+      <script src="../../dist/js/swiper.min.js"></script>
 </body>
 
 </html>
