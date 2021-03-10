@@ -78,6 +78,10 @@ input::placeholder {
   font-size: 1.4rem !important;
 }
 
+.ullist {
+  padding-left: 0.5rem;
+}
+
 .btn-whatsapp {
   position: fixed;
   top: 3%;

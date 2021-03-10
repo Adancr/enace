@@ -1,6 +1,7 @@
 /**********
 **GLOBALS**
 ***********/
+
 html {
   font-size: $font-size;
   scroll-behavior: smooth;
@@ -38,6 +39,7 @@ h3 {
 img {
   width: 100%;
 }
+
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -54,42 +56,41 @@ li {
   font-size: 1.6rem;
 }
 
-// bootstrap row 
+// bootstrap row
 .row {
   margin-right: 0 !important;
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 input {
-  font-size: 1.6rem !important; 
+  font-size: 1.6rem !important;
 }
 
 input::placeholder {
   font-size: 1.4rem !important;
 }
 
+.ullist {
+  padding-left: 0.5rem;
+}
 
 // .bg-inverse {
 //   background-color: black;
 // }
-
 // %container {
 //   max-width: 1140px;
 //   margin: auto;
 //   @media (max-width: 425px) {
 //       & {
 //           padding-left: 0 !important;
-//           padding-right: 0 !important; 
+//           padding-right: 0 !important;
 //       }
 //   }
 // }
-
 // .container {
 //   @extend %container;
 // }
-
 // .row {
 //   margin-left: 0 !important;
 //   margin-right: 0 !important;
 // }
-

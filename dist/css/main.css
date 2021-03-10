@@ -178,6 +178,10 @@ input::placeholder {
   font-size: 1.4rem !important;
 }
 
+.ullist {
+  padding-left: 0.5rem;
+}
+
 section.swiper-container .swiper-slide {
   height: 40rem;
   background-size: cover;
